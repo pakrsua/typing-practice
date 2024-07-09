@@ -1,0 +1,5266 @@
+[
+    {
+        "id" : "1",
+        "value" : "ーずつ",
+        "pron" : "ーずつ",
+        "eng" : "-zutu",
+        "mean" : "1. ...씩 2.같은 분량만큼 되풀이함"
+    },
+    {
+        "id" : "2",
+        "value" : "会う",
+        "pron" : "あう",
+        "eng" : "au",
+        "mean" : "1.만나다 2.대면하다, 면회하다 3.우연히 만나다, 조우하다"
+    },
+    {
+        "id" : "3",
+        "value" : "青い",
+        "pron" : "あおい",
+        "eng" : "aoi",
+        "mean" : "1.파랗다 2.푸르다 3.창백하다, 핼쑥하다"
+    },
+    {
+        "id" : "4",
+        "value" : "赤い",
+        "pron" : "あかい",
+        "eng" : "akai",
+        "mean" : "1.붉다, 빨갛다 2.아름답다 3.공산주의적이다"
+    },
+    {
+        "id" : "5",
+        "value" : "明るい",
+        "pron" : "あかるい",
+        "eng" : "akarui",
+        "mean" : "1.밝다 2.환하다 3.명랑하다"
+    },
+    {
+        "id" : "6",
+        "value" : "上がる",
+        "pron" : "あがる",
+        "eng" : "agaru",
+        "mean" : "1.오르다 2.몰수되다, 빼앗기다"
+    },
+    {
+        "id" : "7",
+        "value" : "秋",
+        "pron" : "あき",
+        "eng" : "aki",
+        "mean" : "가을"
+    },
+    {
+        "id" : "8",
+        "value" : "開く",
+        "pron" : "あく",
+        "eng" : "aku",
+        "mean" : "열다"
+    },
+    {
+        "id" : "9",
+        "value" : "開ける",
+        "pron" : "あける",
+        "eng" : "akeru",
+        "mean" : "1.열다 2.사이를 떼다"
+    },
+    {
+        "id" : "10",
+        "value" : "上げる",
+        "pron" : "あげる",
+        "eng" : "ageru",
+        "mean" : "1.올리다 2.얹다 3.조수가 밀려오다, 밀물이 들어오다"
+    },
+    {
+        "id" : "11",
+        "value" : "朝",
+        "pron" : "あさ",
+        "eng" : "asa",
+        "mean" : "아침"
+    },
+    {
+        "id" : "12",
+        "value" : "朝ご飯",
+        "pron" : "あさごはん",
+        "eng" : "asagohann",
+        "mean" : "아침 밥"
+    },
+    {
+        "id" : "13",
+        "value" : "明後日",
+        "pron" : "あさって",
+        "eng" : "asatte",
+        "mean" : "모레"
+    },
+    {
+        "id" : "14",
+        "value" : "足",
+        "pron" : "あし",
+        "eng" : "asi",
+        "mean" : "1.발 2.걸음 3.보조"
+    },
+    {
+        "id" : "15",
+        "value" : "明日",
+        "pron" : "あした",
+        "eng" : "asita",
+        "mean" : "내일"
+    },
+    {
+        "id" : "16",
+        "value" : "彼処",
+        "pron" : "あそこ",
+        "eng" : "asoko",
+        "mean" : "저기;거기;저쪽"
+    },
+    {
+        "id" : "17",
+        "value" : "遊ぶ",
+        "pron" : "あそ-ぶ",
+        "eng" : "asobu",
+        "mean" : "1.놀다 2.유람하다 3.타향에서 배우다;유학하다"
+    },
+    {
+        "id" : "18",
+        "value" : "頭",
+        "pron" : "あたま",
+        "eng" : "atama",
+        "mean" : "1.머리 2.두부 3.두발;머리칼"
+    },
+    {
+        "id" : "19",
+        "value" : "新しい",
+        "pron" : "あたらし-い",
+        "eng" : "atarasii",
+        "mean" : "1.새롭다 2.오래지 않다;갓 …하다 3.싱싱하다"
+    },
+    {
+        "id" : "20",
+        "value" : "彼方",
+        "pron" : "あちら",
+        "eng" : "atira",
+        "mean" : "1.저쪽;저기 2.저것 3.외국의 호칭;그 곳"
+    },
+    {
+        "id" : "21",
+        "value" : "暑い",
+        "pron" : "あつ-い",
+        "eng" : "atui",
+        "mean" : "덥다"
+    },
+    {
+        "id" : "22",
+        "value" : "後",
+        "pron" : "あと",
+        "eng" : "ato",
+        "mean" : "1.뒤 2.뒤쪽;후방 3.앞으로;아직"
+    },
+    {
+        "id" : "23",
+        "value" : "貴方",
+        "pron" : "あなた",
+        "eng" : "anata",
+        "mean" : "1.당신;귀하 2.여보"
+    },
+    {
+        "id" : "24",
+        "value" : "兄",
+        "pron" : "あに",
+        "eng" : "ani",
+        "mean" : "형;오빠"
+    },
+    {
+        "id" : "25",
+        "value" : "姉",
+        "pron" : "あね",
+        "eng" : "ane",
+        "mean" : "1.언니;손위 누이. 2.배우자의 손위 여자 형제"
+    },
+    {
+        "id" : "26",
+        "value" : "彼の",
+        "pron" : "あの",
+        "eng" : "ano",
+        "mean" : "저;그"
+    },
+    {
+        "id" : "27",
+        "value" : "浴びる",
+        "pron" : "あ-びる",
+        "eng" : "abiru",
+        "mean" : "1.뒤집어쓰다 2.들쓰다 3.흠뻑 쓰다"
+    },
+    {
+        "id" : "28",
+        "value" : "危ない",
+        "pron" : "あぶな-い",
+        "eng" : "abunai",
+        "mean" : "1.위험하다;위태롭다 2.불안하다;미덥지 않다 3.하마터면;아슬아슬하게"
+    },
+    {
+        "id" : "29",
+        "value" : "甘い",
+        "pron" : "あま-い",
+        "eng" : "amai",
+        "mean" : "1.달다 2.싱겁다 3.달콤하다"
+    },
+    {
+        "id" : "30",
+        "value" : "余り",
+        "pron" : "あまり",
+        "eng" : "amari",
+        "mean" : "1.남은 것;나머지 2.너무;지나치게 3.도가 지나침;너무함"
+    },
+    {
+        "id" : "31",
+        "value" : "雨",
+        "pron" : "あめ",
+        "eng" : "ame",
+        "mean" : "1.비;우천 2.빗발치듯 쏟아지는 모양"
+    },
+    {
+        "id" : "32",
+        "value" : "洗う",
+        "pron" : "あら-う",
+        "eng" : "arau",
+        "mean" : "1.씻다;빨다 2.밀려 왔다 나갔다 하다 3.자세히 들춰 조사하다"
+    },
+    {
+        "id" : "33",
+        "value" : "ありがとうございます",
+        "pron" : "ありがとうございます",
+        "eng" : "arigatougozaimasu",
+        "mean" : "감사합니다"
+    },
+    {
+        "id" : "34",
+        "value" : "有る",
+        "pron" : "あ-る",
+        "eng" : "aru",
+        "mean" : "1.있다 2.얼마큼 되다 3.죽 …하다"
+    },
+    {
+        "id" : "35",
+        "value" : "歩く",
+        "pron" : "ある-く",
+        "eng" : "aruku",
+        "mean" : "1.걷다;산책하다 2.여기저기 돌아다니며 …하다 3.보내다;지내다"
+    },
+    {
+        "id" : "36",
+        "value" : "あんな",
+        "pron" : "あんな",
+        "eng" : "annna",
+        "mean" : "저런"
+    },
+    {
+        "id" : "37",
+        "value" : "良い",
+        "pron" : "いい",
+        "eng" : "ii",
+        "mean" : "1.좋다 2.…하기 좋다;쉽다"
+    },
+    {
+        "id" : "38",
+        "value" : "いいえ",
+        "pron" : "いいえ",
+        "eng" : "iie",
+        "mean" : "아니"
+    },
+    {
+        "id" : "39",
+        "value" : "言う",
+        "pron" : "い-う",
+        "eng" : "iu",
+        "mean" : "1.말하다;하다 2.…을 …라고 하다 3.소리가 나다;소리가 들리다"
+    },
+    {
+        "id" : "40",
+        "value" : "家",
+        "pron" : "いえ",
+        "eng" : "ie",
+        "mean" : "1.집 2.주택 3.자택"
+    },
+    {
+        "id" : "41",
+        "value" : "行く",
+        "pron" : "いく",
+        "eng" : "iku",
+        "mean" : "1.딴 곳으로 움직여 가다 2.∙∙∙해 가다 3.점점 변해서 그렇게 되다;∙∙∙져 가다"
+    },
+    {
+        "id" : "42",
+        "value" : "幾つ",
+        "pron" : "いくつ",
+        "eng" : "ikutu",
+        "mean" : "1.몇;몇 개 2.몇 살"
+    },
+    {
+        "id" : "43",
+        "value" : "いくら",
+        "pron" : "いくら",
+        "eng" : "ikura",
+        "mean" : "1.얼마;어느 정도 2.그리 3.얼마나;얼만큼"
+    },
+    {
+        "id" : "44",
+        "value" : "池",
+        "pron" : "いけ",
+        "eng" : "ike",
+        "mean" : "1.못 2.연지"
+    },
+    {
+        "id" : "45",
+        "value" : "医者",
+        "pron" : "いしゃ",
+        "eng" : "isya",
+        "mean" : "의사"
+    },
+    {
+        "id" : "46",
+        "value" : "椅子",
+        "pron" : "いす",
+        "eng" : "isu",
+        "mean" : "1.의자 2.관직 등의 직위;자리"
+    },
+    {
+        "id" : "47",
+        "value" : "忙しい",
+        "pron" : "いそがし-い",
+        "eng" : "isogasii",
+        "mean" : "1.바쁘다;겨를이 없다 2.닥치어 들뜨다;분주살스럽다"
+    },
+    {
+        "id" : "48",
+        "value" : "痛い",
+        "pron" : "いた-い",
+        "eng" : "itai",
+        "mean" : "1.아프다 2.쓰리다;뼈아프다 3.뜨끔하다"
+    },
+    {
+        "id" : "49",
+        "value" : "戴きます",
+        "pron" : "いただきます",
+        "eng" : "itadakimasu",
+        "mean" : "잘 먹겠습니다"
+    },
+    {
+        "id" : "50",
+        "value" : "一",
+        "pron" : "いち",
+        "eng" : "iti",
+        "mean" : "1.일 2.하나;첫째 3.하나의;어떤"
+    },
+    {
+        "id" : "51",
+        "value" : "一円",
+        "pron" : "いちえん",
+        "eng" : "itienn",
+        "mean" : "1.일원;어떤 장소 일대 2.1엔 3.조금도;전혀;도무지"
+    },
+    {
+        "id" : "52",
+        "value" : "一月",
+        "pron" : "いちがつ",
+        "eng" : "itigatu",
+        "mean" : "일월;정월"
+    },
+    {
+        "id" : "53",
+        "value" : "一時",
+        "pron" : "いちじ",
+        "eng" : "itizi",
+        "mean" : "1.일시 2.한때;한동안 3.같은 때;동시"
+    },
+    {
+        "id" : "54",
+        "value" : "一日",
+        "pron" : "いちにち",
+        "eng" : "itiniti",
+        "mean" : "1.일일 2.하루 3.아침부터 저녁까지;하루종일"
+    },
+    {
+        "id" : "55",
+        "value" : "一年",
+        "pron" : "いちねん",
+        "eng" : "itinenn",
+        "mean" : "1.일 년 2.한 해 3.한 해 동안"
+    },
+    {
+        "id" : "56",
+        "value" : "一倍",
+        "pron" : "いちばい",
+        "eng" : "itibai",
+        "mean" : "1.곱 2.일배 3.두 배;갑절"
+    },
+    {
+        "id" : "57",
+        "value" : "一番",
+        "pron" : "いちばん",
+        "eng" : "itibann",
+        "mean" : "1.일번;첫째 2.상책;최상의 방법 3.가장;제일"
+    },
+    {
+        "id" : "58",
+        "value" : "一枚",
+        "pron" : "いちまい",
+        "eng" : "itimai",
+        "mean" : "1.일매;한 장 2.논의 한 구획;논배미 3.한 사람"
+    },
+    {
+        "id" : "59",
+        "value" : "一回",
+        "pron" : "いっかい",
+        "eng" : "ikkai",
+        "mean" : "1.일회 2.한 번 3.한 돌"
+    },
+    {
+        "id" : "60",
+        "value" : "一階",
+        "pron" : "いっかい",
+        "eng" : "ikkai",
+        "mean" : "1.일층 2.관직의 일계급"
+    },
+    {
+        "id" : "61",
+        "value" : "一個",
+        "pron" : "いっこ",
+        "eng" : "ikko",
+        "mean" : "1.한 개 2.일개;한 사람 3.백 엔의 변말;→にこよん"
+    },
+    {
+        "id" : "62",
+        "value" : "一週間",
+        "pron" : "いっしゅうかん",
+        "eng" : "issyuukann",
+        "mean" : "일주간"
+    },
+    {
+        "id" : "63",
+        "value" : "いっしょに",
+        "pron" : "いっしょに",
+        "eng" : "issyoni",
+        "mean" : "함께, 같이"
+    },
+    {
+        "id" : "64",
+        "value" : "一杯",
+        "pron" : "いっぱい",
+        "eng" : "ippai",
+        "mean" : "1.일배;한 잔 2.한 그릇에 한 번만 담고 더 주지 않음 3.배나, 게·오징어 따위를 세는 단위"
+    },
+    {
+        "id" : "65",
+        "value" : "一匹",
+        "pron" : "いっぴき",
+        "eng" : "ippiki",
+        "mean" : "1.한 필 2.한 마리;말 한 마리 3.옛날 돈의 10文 또는 25文"
+    },
+    {
+        "id" : "66",
+        "value" : "一分",
+        "pron" : "いっぷん",
+        "eng" : "ippunn",
+        "mean" : "1.일 분 2.일 푼"
+    },
+    {
+        "id" : "67",
+        "value" : "一本",
+        "pron" : "いっぽん",
+        "eng" : "ipponn",
+        "mean" : "1.한 자루 2.나무 한 그루 3.유도·검술에서 한 대 침;상대에 이겼다고 인정할 수 있는 하나의 기술"
+    },
+    {
+        "id" : "68",
+        "value" : "何時",
+        "pron" : "いつ",
+        "eng" : "itu",
+        "mean" : "언제;어느 때"
+    },
+    {
+        "id" : "69",
+        "value" : "五日",
+        "pron" : "いつか",
+        "eng" : "ituka",
+        "mean" : "1.오일 2.닷새 3.초닷새"
+    },
+    {
+        "id" : "70",
+        "value" : "五つ",
+        "pron" : "いつつ",
+        "eng" : "itutu",
+        "mean" : "1.다섯;또, 다섯살 2.옛 시각의 이름;지금의 오전 오후 8시경"
+    },
+    {
+        "id" : "71",
+        "value" : "何時も",
+        "pron" : "いつも",
+        "eng" : "itumo",
+        "mean" : "1.언제나;늘 2.여느 때;보통 때"
+    },
+    {
+        "id" : "72",
+        "value" : "犬",
+        "pron" : "いぬ",
+        "eng" : "inu",
+        "mean" : "1.개 2.주구;앞잡이 3.쓸모 있는 어떤 식물과 모양이 비슷하나, 대개는 인간 생활에 직접 유용하지 않은 것"
+    },
+    {
+        "id" : "73",
+        "value" : "今",
+        "pron" : "いま",
+        "eng" : "ima",
+        "mean" : "1.지금;이제 2.현재의;당대의 3.방금;막"
+    },
+    {
+        "id" : "74",
+        "value" : "意味",
+        "pron" : "いみ",
+        "eng" : "imi",
+        "mean" : "1.의미;뜻 2.말의 뜻 3.의도;까닭"
+    },
+    {
+        "id" : "75",
+        "value" : "妹",
+        "pron" : "いもうと",
+        "eng" : "imouto",
+        "mean" : "1.누이동생 2.처제;손아래 시누이"
+    },
+    {
+        "id" : "76",
+        "value" : "嫌",
+        "pron" : "いや",
+        "eng" : "iya",
+        "mean" : "1.싫음;하고 싶지 않음 2.대단히;몹시"
+    },
+    {
+        "id" : "77",
+        "value" : "いらっしゃいませ",
+        "pron" : "いらっしゃいませ",
+        "eng" : "irassyaimase",
+        "mean" : "어서 오십시오;어서 오세요"
+    },
+    {
+        "id" : "78",
+        "value" : "入口",
+        "pron" : "いりぐち",
+        "eng" : "iriguti",
+        "mean" : "1.입구 2.시초;첫머리"
+    },
+    {
+        "id" : "79",
+        "value" : "要る",
+        "pron" : "い-る",
+        "eng" : "iru",
+        "mean" : "필요하다;소용되다"
+    },
+    {
+        "id" : "80",
+        "value" : "居る",
+        "pron" : "いる",
+        "eng" : "iru",
+        "mean" : "1.있다 2.앉다 3.가만히 있다"
+    },
+    {
+        "id" : "81",
+        "value" : "入れる",
+        "pron" : "い-れる",
+        "eng" : "ireru",
+        "mean" : "1.넣다 2.들어가게 하다 3.속에 집어넣다"
+    },
+    {
+        "id" : "82",
+        "value" : "色",
+        "pron" : "いろ",
+        "eng" : "iro",
+        "mean" : "1.색;빛 2.빛깔;색채 3.안색;낯빛"
+    },
+    {
+        "id" : "83",
+        "value" : "色々",
+        "pron" : "いろいろ",
+        "eng" : "iroiro",
+        "mean" : "여러 가지 종류;가지각색"
+    },
+    {
+        "id" : "84",
+        "value" : "上",
+        "pron" : "うえ",
+        "eng" : "ue",
+        "mean" : "1.위 2.부근;가 3.손윗사람을 이를 때 덧붙이는 말"
+    },
+    {
+        "id" : "85",
+        "value" : "後ろ",
+        "pron" : "うしろ",
+        "eng" : "usiro",
+        "mean" : "1.뒤 2.뒤쪽;그늘 3.등"
+    },
+    {
+        "id" : "86",
+        "value" : "薄い",
+        "pron" : "うす-い",
+        "eng" : "usui",
+        "mean" : "1.얇다 2.정도·밀도가 적다 3.산뜻하다;담박하다"
+    },
+    {
+        "id" : "87",
+        "value" : "歌",
+        "pron" : "うた",
+        "eng" : "uta",
+        "mean" : "1.노래 2.단가;和歌"
+    },
+    {
+        "id" : "88",
+        "value" : "歌う",
+        "pron" : "うた-う",
+        "eng" : "utau",
+        "mean" : "1.가락을 붙여 노래 부르다 2.시가를 짓다;읊다 3.새가 지저귀다"
+    },
+    {
+        "id" : "89",
+        "value" : "生まれる",
+        "pron" : "うまれる",
+        "eng" : "umareru",
+        "mean" : "1.태어나다;출생하다 2.없던 것이 새로 생기다"
+    },
+    {
+        "id" : "90",
+        "value" : "海",
+        "pron" : "うみ",
+        "eng" : "umi",
+        "mean" : "1.바다 2.호수 3.널리 퍼져 있는 것"
+    },
+    {
+        "id" : "91",
+        "value" : "売る",
+        "pron" : "うる",
+        "eng" : "uru",
+        "mean" : "팔다"
+    },
+    {
+        "id" : "92",
+        "value" : "煩い",
+        "pron" : "うるさい",
+        "eng" : "urusai",
+        "mean" : "시끄럽다, 귀찮다"
+    },
+    {
+        "id" : "93",
+        "value" : "上着",
+        "pron" : "うわぎ",
+        "eng" : "uwagi",
+        "mean" : "겉옷"
+    },
+    {
+        "id" : "94",
+        "value" : "上衣",
+        "pron" : "うわぎ",
+        "eng" : "uwagi",
+        "mean" : "겉옷"
+    },
+    {
+        "id" : "95",
+        "value" : "絵",
+        "pron" : "え",
+        "eng" : "e",
+        "mean" : "그림"
+    },
+    {
+        "id" : "96",
+        "value" : "映画館",
+        "pron" : "えいがかん",
+        "eng" : "eigakann",
+        "mean" : "영화관"
+    },
+    {
+        "id" : "97",
+        "value" : "英語",
+        "pron" : "えいご",
+        "eng" : "eigo",
+        "mean" : "영어"
+    },
+    {
+        "id" : "98",
+        "value" : "駅",
+        "pron" : "えき",
+        "eng" : "eki",
+        "mean" : "역, 정거장"
+    },
+    {
+        "id" : "99",
+        "value" : "円",
+        "pron" : "えん",
+        "eng" : "enn",
+        "mean" : "둥근 것, 엔"
+    },
+    {
+        "id" : "100",
+        "value" : "鉛筆",
+        "pron" : "えんぴつ",
+        "eng" : "ennpitu",
+        "mean" : "연필"
+    },
+    {
+        "id" : "101",
+        "value" : "美味しい",
+        "pron" : "おいしい",
+        "eng" : "oisii",
+        "mean" : "맛있다"
+    },
+    {
+        "id" : "102",
+        "value" : "多い",
+        "pron" : "おおい",
+        "eng" : "ooi",
+        "mean" : "많다"
+    },
+    {
+        "id" : "103",
+        "value" : "大きい",
+        "pron" : "おおきい",
+        "eng" : "ookii",
+        "mean" : "많다, 크다"
+    },
+    {
+        "id" : "104",
+        "value" : "大きな",
+        "pron" : "おおきな",
+        "eng" : "ookina",
+        "mean" : "큰"
+    },
+    {
+        "id" : "105",
+        "value" : "大ぜい",
+        "pron" : "おおぜい",
+        "eng" : "oozei",
+        "mean" : "많은 사람, 여럿"
+    },
+    {
+        "id" : "106",
+        "value" : "御母さん",
+        "pron" : "おかあさん",
+        "eng" : "okaasann",
+        "mean" : "엄마"
+    },
+    {
+        "id" : "107",
+        "value" : "お菓子",
+        "pron" : "おかし",
+        "eng" : "okasi",
+        "mean" : "과자"
+    },
+    {
+        "id" : "108",
+        "value" : "お金",
+        "pron" : "おかね",
+        "eng" : "okane",
+        "mean" : "돈"
+    },
+    {
+        "id" : "109",
+        "value" : "お客さん",
+        "pron" : "おきゃくさん",
+        "eng" : "ogyakusann",
+        "mean" : "손님"
+    },
+    {
+        "id" : "110",
+        "value" : "起きる",
+        "pron" : "お-きる",
+        "eng" : "okiru",
+        "mean" : "일어나다, 바로서다"
+    },
+    {
+        "id" : "111",
+        "value" : "置く",
+        "pron" : "おく",
+        "eng" : "oku",
+        "mean" : "두다, 놓다"
+    },
+    {
+        "id" : "112",
+        "value" : "奥さん",
+        "pron" : "おくさん",
+        "eng" : "okusann",
+        "mean" : "부인"
+    },
+    {
+        "id" : "113",
+        "value" : "お酒",
+        "pron" : "おさけ",
+        "eng" : "osake",
+        "mean" : "술"
+    },
+    {
+        "id" : "114",
+        "value" : "お皿",
+        "pron" : "おさら",
+        "eng" : "osara",
+        "mean" : "접시"
+    },
+    {
+        "id" : "115",
+        "value" : "教える",
+        "pron" : "おしえる",
+        "eng" : "osieru",
+        "mean" : "가르치다"
+    },
+    {
+        "id" : "116",
+        "value" : "おじいさん",
+        "pron" : "おじいさん",
+        "eng" : "oziisann",
+        "mean" : "할아버지"
+    },
+    {
+        "id" : "117",
+        "value" : "おじさん",
+        "pron" : "おじさん",
+        "eng" : "ozisann",
+        "mean" : "아저씨"
+    },
+    {
+        "id" : "118",
+        "value" : "押す",
+        "pron" : "おす",
+        "eng" : "osu",
+        "mean" : "밀다, 누르다"
+    },
+    {
+        "id" : "119",
+        "value" : "遅い",
+        "pron" : "おそい",
+        "eng" : "osoi",
+        "mean" : "늦다, 느리다"
+    },
+    {
+        "id" : "120",
+        "value" : "お茶",
+        "pron" : "おちゃ",
+        "eng" : "otya",
+        "mean" : "차, 다도"
+    },
+    {
+        "id" : "121",
+        "value" : "お父さん",
+        "pron" : "おとうさん",
+        "eng" : "otousann",
+        "mean" : "아빠"
+    },
+    {
+        "id" : "122",
+        "value" : "弟",
+        "pron" : "おとうと",
+        "eng" : "otouto",
+        "mean" : "남동생"
+    },
+    {
+        "id" : "123",
+        "value" : "男",
+        "pron" : "おとこ",
+        "eng" : "otoko",
+        "mean" : "남자"
+    },
+    {
+        "id" : "124",
+        "value" : "男の子",
+        "pron" : "おとこのこ",
+        "eng" : "otokonoko",
+        "mean" : "남자아이"
+    },
+    {
+        "id" : "125",
+        "value" : "男の人",
+        "pron" : "おとこのひと",
+        "eng" : "otokonohito",
+        "mean" : "남자"
+    },
+    {
+        "id" : "126",
+        "value" : "一昨日",
+        "pron" : "おととい",
+        "eng" : "ototoi",
+        "mean" : "그저께"
+    },
+    {
+        "id" : "127",
+        "value" : "一昨年",
+        "pron" : "おととし",
+        "eng" : "ototosi",
+        "mean" : "재작년"
+    },
+    {
+        "id" : "128",
+        "value" : "大人",
+        "pron" : "おとな",
+        "eng" : "otona",
+        "mean" : "어른, 어른스러운"
+    },
+    {
+        "id" : "129",
+        "value" : "御中",
+        "pron" : "おなか",
+        "eng" : "onaka",
+        "mean" : "배"
+    },
+    {
+        "id" : "130",
+        "value" : "御腹",
+        "pron" : "おなか",
+        "eng" : "onaka",
+        "mean" : "배"
+    },
+    {
+        "id" : "131",
+        "value" : "同じ",
+        "pron" : "おなじ",
+        "eng" : "onazi",
+        "mean" : "같음"
+    },
+    {
+        "id" : "132",
+        "value" : "お兄さん",
+        "pron" : "おにいさん",
+        "eng" : "oniisann",
+        "mean" : "형, 오빠"
+    },
+    {
+        "id" : "133",
+        "value" : "御姉さん",
+        "pron" : "おねえさん",
+        "eng" : "oneesann",
+        "mean" : "언니, 누나, 아가씨"
+    },
+    {
+        "id" : "134",
+        "value" : "お願いします",
+        "pron" : "おねがいします",
+        "eng" : "onegaisimasu",
+        "mean" : "부탁드립니다"
+    },
+    {
+        "id" : "135",
+        "value" : "おばあさん",
+        "pron" : "おばあさん",
+        "eng" : "obaasann",
+        "mean" : "할머니"
+    },
+    {
+        "id" : "136",
+        "value" : "おばさん",
+        "pron" : "おばさん",
+        "eng" : "obasann",
+        "mean" : "아주머니"
+    },
+    {
+        "id" : "137",
+        "value" : "お風呂",
+        "pron" : "おふろ",
+        "eng" : "ohuro",
+        "mean" : "목욕, 욕실"
+    },
+    {
+        "id" : "138",
+        "value" : "お弁当",
+        "pron" : "おべんとう",
+        "eng" : "obenntou",
+        "mean" : "도시락"
+    },
+    {
+        "id" : "139",
+        "value" : "覚える",
+        "pron" : "おぼえる",
+        "eng" : "oboeru",
+        "mean" : "기억하다, 배우다"
+    },
+    {
+        "id" : "140",
+        "value" : "おまわりさん",
+        "pron" : "おまわりさん",
+        "eng" : "omawarisann",
+        "mean" : "경찰"
+    },
+    {
+        "id" : "141",
+        "value" : "重い",
+        "pron" : "おもい",
+        "eng" : "omoi",
+        "mean" : "무겁다"
+    },
+    {
+        "id" : "142",
+        "value" : "面白い",
+        "pron" : "おもしろい",
+        "eng" : "omosiroi",
+        "mean" : "재미있다, 우습다"
+    },
+    {
+        "id" : "143",
+        "value" : "お休みなさい",
+        "pron" : "おやすみなさい",
+        "eng" : "oyasuminasai",
+        "mean" : "안녕히 주무세요"
+    },
+    {
+        "id" : "144",
+        "value" : "泳ぐ",
+        "pron" : "およぐ",
+        "eng" : "oyogu",
+        "mean" : "헤엄치다, 수영하다"
+    },
+    {
+        "id" : "145",
+        "value" : "降りる",
+        "pron" : "おりる",
+        "eng" : "oriru",
+        "mean" : "내리다"
+    },
+    {
+        "id" : "146",
+        "value" : "終る",
+        "pron" : "おわる",
+        "eng" : "owaru",
+        "mean" : "끝나다"
+    },
+    {
+        "id" : "147",
+        "value" : "音楽",
+        "pron" : "おんがく",
+        "eng" : "onngaku",
+        "mean" : "음악"
+    },
+    {
+        "id" : "148",
+        "value" : "女",
+        "pron" : "おんな",
+        "eng" : "onnna",
+        "mean" : "여자"
+    },
+    {
+        "id" : "149",
+        "value" : "女の子",
+        "pron" : "おんなのこ",
+        "eng" : "onnnanoko",
+        "mean" : "여자아이"
+    },
+    {
+        "id" : "150",
+        "value" : "女の人",
+        "pron" : "おんなのひと",
+        "eng" : "onnnanohito",
+        "mean" : "여자"
+    },
+    {
+        "id" : "151",
+        "value" : "会社",
+        "pron" : "かいしゃ",
+        "eng" : "kaisya",
+        "mean" : "회사"
+    },
+    {
+        "id" : "152",
+        "value" : "会社員",
+        "pron" : "かいしゃいん",
+        "eng" : "kaisyainn",
+        "mean" : "회사원"
+    },
+    {
+        "id" : "153",
+        "value" : "階段",
+        "pron" : "かいだん",
+        "eng" : "kaidann",
+        "mean" : "계단"
+    },
+    {
+        "id" : "154",
+        "value" : "買い物",
+        "pron" : "かいもの",
+        "eng" : "kaimono",
+        "mean" : "산 물건"
+    },
+    {
+        "id" : "155",
+        "value" : "買う",
+        "pron" : "かう",
+        "eng" : "kau",
+        "mean" : "사다"
+    },
+    {
+        "id" : "156",
+        "value" : "返す",
+        "pron" : "かえす",
+        "eng" : "kaesu",
+        "mean" : "돌려주다"
+    },
+    {
+        "id" : "157",
+        "value" : "帰る",
+        "pron" : "かえる",
+        "eng" : "kaeru",
+        "mean" : "돌아가다"
+    },
+    {
+        "id" : "158",
+        "value" : "顔",
+        "pron" : "かお",
+        "eng" : "kao",
+        "mean" : "얼굴"
+    },
+    {
+        "id" : "159",
+        "value" : "掛かる",
+        "pron" : "かかる",
+        "eng" : "kakaru",
+        "mean" : "걸리다"
+    },
+    {
+        "id" : "160",
+        "value" : "鍵",
+        "pron" : "かぎ",
+        "eng" : "kagi",
+        "mean" : "열쇠"
+    },
+    {
+        "id" : "161",
+        "value" : "書く",
+        "pron" : "かく",
+        "eng" : "kaku",
+        "mean" : "쓰다"
+    },
+    {
+        "id" : "162",
+        "value" : "傘",
+        "pron" : "かさ",
+        "eng" : "kasa",
+        "mean" : "우산, 양산"
+    },
+    {
+        "id" : "163",
+        "value" : "貸す",
+        "pron" : "かす",
+        "eng" : "kasu",
+        "mean" : "빌려주다"
+    },
+    {
+        "id" : "164",
+        "value" : "風",
+        "pron" : "かぜ",
+        "eng" : "kaze",
+        "mean" : "바람"
+    },
+    {
+        "id" : "165",
+        "value" : "風邪",
+        "pron" : "かぜ",
+        "eng" : "kaze",
+        "mean" : "감기"
+    },
+    {
+        "id" : "166",
+        "value" : "家族",
+        "pron" : "かぞく",
+        "eng" : "kazoku",
+        "mean" : "가족"
+    },
+    {
+        "id" : "167",
+        "value" : "角",
+        "pron" : "かど",
+        "eng" : "kado",
+        "mean" : "귀퉁이"
+    },
+    {
+        "id" : "168",
+        "value" : "鞄",
+        "pron" : "かばん",
+        "eng" : "kabann",
+        "mean" : "가방"
+    },
+    {
+        "id" : "169",
+        "value" : "花瓶",
+        "pron" : "かびん",
+        "eng" : "kabinn",
+        "mean" : "화병, 꽃병"
+    },
+    {
+        "id" : "170",
+        "value" : "被る",
+        "pron" : "かぶる",
+        "eng" : "kaburu",
+        "mean" : "쓰다"
+    },
+    {
+        "id" : "171",
+        "value" : "齧る",
+        "pron" : "かぶる",
+        "eng" : "kaburu",
+        "mean" : "덥석물다, 배가 아프다"
+    },
+    {
+        "id" : "172",
+        "value" : "紙",
+        "pron" : "かみ",
+        "eng" : "kami",
+        "mean" : "종이"
+    },
+    {
+        "id" : "173",
+        "value" : "火曜日",
+        "pron" : "かようび",
+        "eng" : "kayoubi",
+        "mean" : "화요일"
+    },
+    {
+        "id" : "174",
+        "value" : "辛い",
+        "pron" : "からい",
+        "eng" : "karai",
+        "mean" : "맵다"
+    },
+    {
+        "id" : "175",
+        "value" : "体",
+        "pron" : "からだ",
+        "eng" : "karada",
+        "mean" : "몸, 신체"
+    },
+    {
+        "id" : "176",
+        "value" : "身体",
+        "pron" : "からだ",
+        "eng" : "karada",
+        "mean" : "몸, 신체"
+    },
+    {
+        "id" : "177",
+        "value" : "借りる",
+        "pron" : "かりる",
+        "eng" : "kariru",
+        "mean" : "빌리다"
+    },
+    {
+        "id" : "178",
+        "value" : "軽い",
+        "pron" : "かるい",
+        "eng" : "karui",
+        "mean" : "가볍다"
+    },
+    {
+        "id" : "179",
+        "value" : "川",
+        "pron" : "かわ",
+        "eng" : "kawa",
+        "mean" : "하천, 강, 내"
+    },
+    {
+        "id" : "180",
+        "value" : "河",
+        "pron" : "かわ",
+        "eng" : "kawa",
+        "mean" : "하천, 강, 내"
+    },
+    {
+        "id" : "181",
+        "value" : "可愛い",
+        "pron" : "かわいい",
+        "eng" : "kawaii",
+        "mean" : "귀엽다"
+    },
+    {
+        "id" : "182",
+        "value" : "漢字",
+        "pron" : "かんじ",
+        "eng" : "kannzi",
+        "mean" : "한자"
+    },
+    {
+        "id" : "183",
+        "value" : "外国人",
+        "pron" : "がいこくじん",
+        "eng" : "gaikokuzinn",
+        "mean" : "외국인"
+    },
+    {
+        "id" : "184",
+        "value" : "学生",
+        "pron" : "がくせい",
+        "eng" : "gakusei",
+        "mean" : "학생, 대학생"
+    },
+    {
+        "id" : "185",
+        "value" : "学校",
+        "pron" : "がっこう",
+        "eng" : "gakkou",
+        "mean" : "학교"
+    },
+    {
+        "id" : "186",
+        "value" : "木",
+        "pron" : "き",
+        "eng" : "ki",
+        "mean" : "나무, 수목"
+    },
+    {
+        "id" : "187",
+        "value" : "樹",
+        "pron" : "き",
+        "eng" : "ki",
+        "mean" : "나무, 수목"
+    },
+    {
+        "id" : "188",
+        "value" : "黄色い",
+        "pron" : "きいろい",
+        "eng" : "kiiroi",
+        "mean" : "노랗다"
+    },
+    {
+        "id" : "189",
+        "value" : "消える",
+        "pron" : "きえる",
+        "eng" : "kieru",
+        "mean" : "꺼지다, 사라지다"
+    },
+    {
+        "id" : "190",
+        "value" : "聞く",
+        "pron" : "きく",
+        "eng" : "kiku",
+        "mean" : "듣다"
+    },
+    {
+        "id" : "191",
+        "value" : "北",
+        "pron" : "きた",
+        "eng" : "kita",
+        "mean" : "북, 북쪽"
+    },
+    {
+        "id" : "192",
+        "value" : "汚い",
+        "pron" : "きたない",
+        "eng" : "kitanai",
+        "mean" : "더럽다"
+    },
+    {
+        "id" : "193",
+        "value" : "喫茶店",
+        "pron" : "きっさてん",
+        "eng" : "kissatenn",
+        "mean" : "찻집"
+    },
+    {
+        "id" : "194",
+        "value" : "切手",
+        "pron" : "きって",
+        "eng" : "kitte",
+        "mean" : "수표"
+    },
+    {
+        "id" : "195",
+        "value" : "切符",
+        "pron" : "きっぷ",
+        "eng" : "kippu",
+        "mean" : "표"
+    },
+    {
+        "id" : "196",
+        "value" : "昨日",
+        "pron" : "きのう",
+        "eng" : "kinou",
+        "mean" : "어제"
+    },
+    {
+        "id" : "197",
+        "value" : "九",
+        "pron" : "きゅう",
+        "eng" : "kyuu",
+        "mean" : "아홉"
+    },
+    {
+        "id" : "198",
+        "value" : "九円",
+        "pron" : "きゅうえん",
+        "eng" : "kyuuenn",
+        "mean" : "9엔"
+    },
+    {
+        "id" : "199",
+        "value" : "九階",
+        "pron" : "きゅうかい",
+        "eng" : "kyuukai",
+        "mean" : "9층"
+    },
+    {
+        "id" : "200",
+        "value" : "九回",
+        "pron" : "きゅうかい",
+        "eng" : "kyuukai",
+        "mean" : "9회"
+    },
+    {
+        "id" : "201",
+        "value" : "九個",
+        "pron" : "きゅうこ",
+        "eng" : "kyuuko",
+        "mean" : "9개"
+    },
+    {
+        "id" : "202",
+        "value" : "九人",
+        "pron" : "きゅうにん",
+        "eng" : "kyuuninn",
+        "mean" : "9명"
+    },
+    {
+        "id" : "203",
+        "value" : "九年",
+        "pron" : "きゅうねん",
+        "eng" : "kyuunenn",
+        "mean" : "9년"
+    },
+    {
+        "id" : "204",
+        "value" : "九杯",
+        "pron" : "きゅうはい",
+        "eng" : "kyuuhai",
+        "mean" : "아홉 잔"
+    },
+    {
+        "id" : "205",
+        "value" : "九倍",
+        "pron" : "きゅうばい",
+        "eng" : "kyuubai",
+        "mean" : "9배"
+    },
+    {
+        "id" : "206",
+        "value" : "九番",
+        "pron" : "きゅうばん",
+        "eng" : "kyuubann",
+        "mean" : "9번"
+    },
+    {
+        "id" : "207",
+        "value" : "九匹",
+        "pron" : "きゅうひき",
+        "eng" : "kyuuhiki",
+        "mean" : "9마리"
+    },
+    {
+        "id" : "208",
+        "value" : "九分",
+        "pron" : "きゅうふん",
+        "eng" : "kyuuhunn",
+        "mean" : "9분"
+    },
+    {
+        "id" : "209",
+        "value" : "九本",
+        "pron" : "きゅうほん",
+        "eng" : "kyuuhonn",
+        "mean" : "9자루"
+    },
+    {
+        "id" : "210",
+        "value" : "九枚",
+        "pron" : "きゅうまい",
+        "eng" : "kyuumai",
+        "mean" : "9장"
+    },
+    {
+        "id" : "211",
+        "value" : "今日",
+        "pron" : "きょう",
+        "eng" : "kyou",
+        "mean" : "오늘, 금일"
+    },
+    {
+        "id" : "212",
+        "value" : "教室",
+        "pron" : "きょうしつ",
+        "eng" : "kyousitu",
+        "mean" : "교실"
+    },
+    {
+        "id" : "213",
+        "value" : "兄弟",
+        "pron" : "きょうだい",
+        "eng" : "kyoudai",
+        "mean" : "형제"
+    },
+    {
+        "id" : "214",
+        "value" : "去年",
+        "pron" : "きょねん",
+        "eng" : "kyounenn",
+        "mean" : "지난해"
+    },
+    {
+        "id" : "215",
+        "value" : "嫌い",
+        "pron" : "きらい",
+        "eng" : "kirai",
+        "mean" : "싫음"
+    },
+    {
+        "id" : "216",
+        "value" : "奇麗",
+        "pron" : "きれい",
+        "eng" : "kirei",
+        "mean" : "예쁨, 깨끗함"
+    },
+    {
+        "id" : "217",
+        "value" : "綺麗",
+        "pron" : "きれい",
+        "eng" : "kirei",
+        "mean" : "예쁨, 깨끗함"
+    },
+    {
+        "id" : "218",
+        "value" : "金曜日",
+        "pron" : "きんようび",
+        "eng" : "kinnyoubi",
+        "mean" : "금요일"
+    },
+    {
+        "id" : "219",
+        "value" : "牛肉",
+        "pron" : "ぎゅうにく",
+        "eng" : "gyuuniku",
+        "mean" : "쇠고기"
+    },
+    {
+        "id" : "220",
+        "value" : "牛乳",
+        "pron" : "ぎゅうにゅう",
+        "eng" : "gyuunyuu",
+        "mean" : "우유"
+    },
+    {
+        "id" : "221",
+        "value" : "銀行",
+        "pron" : "ぎんこう",
+        "eng" : "ginnkou",
+        "mean" : "은행"
+    },
+    {
+        "id" : "222",
+        "value" : "九月",
+        "pron" : "くがつ",
+        "eng" : "kugatu",
+        "mean" : "구월"
+    },
+    {
+        "id" : "223",
+        "value" : "九時",
+        "pron" : "くじ",
+        "eng" : "kuzi",
+        "mean" : "9시"
+    },
+    {
+        "id" : "224",
+        "value" : "薬",
+        "pron" : "くすり",
+        "eng" : "kusuri",
+        "mean" : "약"
+    },
+    {
+        "id" : "225",
+        "value" : "果物",
+        "pron" : "くだもの",
+        "eng" : "kudamono",
+        "mean" : "과일"
+    },
+    {
+        "id" : "226",
+        "value" : "口",
+        "pron" : "くち",
+        "eng" : "kuti",
+        "mean" : "입"
+    },
+    {
+        "id" : "227",
+        "value" : "靴",
+        "pron" : "くつ",
+        "eng" : "kutu",
+        "mean" : "신발"
+    },
+    {
+        "id" : "228",
+        "value" : "沓",
+        "pron" : "くつ",
+        "eng" : "kutu",
+        "mean" : "신발"
+    },
+    {
+        "id" : "229",
+        "value" : "履",
+        "pron" : "くつ",
+        "eng" : "kutu",
+        "mean" : "신발"
+    },
+    {
+        "id" : "230",
+        "value" : "靴下",
+        "pron" : "くつした",
+        "eng" : "kutusita",
+        "mean" : "양말"
+    },
+    {
+        "id" : "231",
+        "value" : "沓下",
+        "pron" : "くつした",
+        "eng" : "kutusita",
+        "mean" : "양말"
+    },
+    {
+        "id" : "232",
+        "value" : "国",
+        "pron" : "くに",
+        "eng" : "kuni",
+        "mean" : "나라, 국가"
+    },
+    {
+        "id" : "233",
+        "value" : "九人",
+        "pron" : "くにん",
+        "eng" : "kuninn",
+        "mean" : "9명"
+    },
+    {
+        "id" : "234",
+        "value" : "位",
+        "pron" : "くらい",
+        "eng" : "kurai",
+        "mean" : "지위, 정도"
+    },
+    {
+        "id" : "235",
+        "value" : "暗い",
+        "pron" : "くらい",
+        "eng" : "kurai",
+        "mean" : "어둡다"
+    },
+    {
+        "id" : "236",
+        "value" : "来る",
+        "pron" : "くる",
+        "eng" : "kuru",
+        "mean" : "오다"
+    },
+    {
+        "id" : "237",
+        "value" : "車",
+        "pron" : "くるま",
+        "eng" : "kuruma",
+        "mean" : "자동차"
+    },
+    {
+        "id" : "238",
+        "value" : "黒い",
+        "pron" : "くろい",
+        "eng" : "kuroi",
+        "mean" : "검다"
+    },
+    {
+        "id" : "239",
+        "value" : "警官",
+        "pron" : "けいかん",
+        "eng" : "keikann",
+        "mean" : "경관"
+    },
+    {
+        "id" : "240",
+        "value" : "今朝",
+        "pron" : "けさ",
+        "eng" : "kesa",
+        "mean" : "오늘 아침"
+    },
+    {
+        "id" : "241",
+        "value" : "消す",
+        "pron" : "けす",
+        "eng" : "kesu",
+        "mean" : "끄다"
+    },
+    {
+        "id" : "242",
+        "value" : "結婚",
+        "pron" : "けっこん",
+        "eng" : "kekkonn",
+        "mean" : "결혼"
+    },
+    {
+        "id" : "243",
+        "value" : "月曜日",
+        "pron" : "げつようび",
+        "eng" : "getuyoubi",
+        "mean" : "월요일"
+    },
+    {
+        "id" : "244",
+        "value" : "元気",
+        "pron" : "げんき",
+        "eng" : "gennki",
+        "mean" : "기력"
+    },
+    {
+        "id" : "245",
+        "value" : "公園",
+        "pron" : "こうえん",
+        "eng" : "kouenn",
+        "mean" : "공원"
+    },
+    {
+        "id" : "246",
+        "value" : "紅茶",
+        "pron" : "こうちゃ",
+        "eng" : "koutya",
+        "mean" : "홍차"
+    },
+    {
+        "id" : "247",
+        "value" : "交番",
+        "pron" : "こうばん",
+        "eng" : "koubann",
+        "mean" : "교번"
+    },
+    {
+        "id" : "248",
+        "value" : "声",
+        "pron" : "こえ",
+        "eng" : "koe",
+        "mean" : "소리"
+    },
+    {
+        "id" : "249",
+        "value" : "ここ",
+        "pron" : "ここ",
+        "eng" : "koko",
+        "mean" : "여기"
+    },
+    {
+        "id" : "250",
+        "value" : "九日",
+        "pron" : "ここのか",
+        "eng" : "kokonoka",
+        "mean" : "구일, 아흐렛 날"
+    },
+    {
+        "id" : "251",
+        "value" : "答える",
+        "pron" : "こたえる",
+        "eng" : "kotaeru",
+        "mean" : "대답하다"
+    },
+    {
+        "id" : "252",
+        "value" : "此方",
+        "pron" : "こちら",
+        "eng" : "kotira",
+        "mean" : "이쪽, 이 방향"
+    },
+    {
+        "id" : "253",
+        "value" : "こちらこそ",
+        "pron" : "こちらこそ",
+        "eng" : "kotirakoso",
+        "mean" : "이쪽이야말로"
+    },
+    {
+        "id" : "254",
+        "value" : "今年",
+        "pron" : "ことし",
+        "eng" : "kotosi",
+        "mean" : "올해"
+    },
+    {
+        "id" : "255",
+        "value" : "子ども",
+        "pron" : "こども",
+        "eng" : "kodomo",
+        "mean" : "아이"
+    },
+    {
+        "id" : "256",
+        "value" : "子供",
+        "pron" : "こども",
+        "eng" : "kodomo",
+        "mean" : "아이"
+    },
+    {
+        "id" : "257",
+        "value" : "此の",
+        "pron" : "この",
+        "eng" : "kono",
+        "mean" : "이"
+    },
+    {
+        "id" : "258",
+        "value" : "困る",
+        "pron" : "こまる",
+        "eng" : "komaru",
+        "mean" : "곤란하다"
+    },
+    {
+        "id" : "259",
+        "value" : "此れ",
+        "pron" : "これ",
+        "eng" : "kore",
+        "mean" : "이것"
+    },
+    {
+        "id" : "260",
+        "value" : "此れ",
+        "pron" : "これ",
+        "eng" : "kore",
+        "mean" : "이것"
+    },
+    {
+        "id" : "261",
+        "value" : "今月",
+        "pron" : "こんげつ",
+        "eng" : "konngetu",
+        "mean" : "금월, 이 달"
+    },
+    {
+        "id" : "262",
+        "value" : "今週",
+        "pron" : "こんしゅう",
+        "eng" : "konnsyuu",
+        "mean" : "금주, 이번 주"
+    },
+    {
+        "id" : "263",
+        "value" : "今週",
+        "pron" : "こんしゅう",
+        "eng" : "konnsyuu",
+        "mean" : "금주, 이번 주"
+    },
+    {
+        "id" : "264",
+        "value" : "こんな",
+        "pron" : "こんな",
+        "eng" : "konnna",
+        "mean" : "이런"
+    },
+    {
+        "id" : "265",
+        "value" : "今日は",
+        "pron" : "こんにちは",
+        "eng" : "konnnitiha",
+        "mean" : "안녕하세요"
+    },
+    {
+        "id" : "266",
+        "value" : "今晩",
+        "pron" : "こんばん",
+        "eng" : "konnbann",
+        "mean" : "오늘 밤"
+    },
+    {
+        "id" : "267",
+        "value" : "今晩は",
+        "pron" : "こんばんは",
+        "eng" : "konnbannha",
+        "mean" : "안녕하세요"
+    },
+    {
+        "id" : "268",
+        "value" : "五",
+        "pron" : "ご",
+        "eng" : "go",
+        "mean" : "안녕하세요"
+    },
+    {
+        "id" : "269",
+        "value" : "五円",
+        "pron" : "ごえん",
+        "eng" : "goenn",
+        "mean" : "5엔"
+    },
+    {
+        "id" : "270",
+        "value" : "五階",
+        "pron" : "ごかい",
+        "eng" : "gokai",
+        "mean" : "5층"
+    },
+    {
+        "id" : "271",
+        "value" : "五回",
+        "pron" : "ごかい",
+        "eng" : "gokai",
+        "mean" : "5회"
+    },
+    {
+        "id" : "272",
+        "value" : "五月",
+        "pron" : "ごがつ",
+        "eng" : "gogatu",
+        "mean" : "오월"
+    },
+    {
+        "id" : "273",
+        "value" : "五個",
+        "pron" : "ごこ",
+        "eng" : "goko",
+        "mean" : "5개"
+    },
+    {
+        "id" : "274",
+        "value" : "午後",
+        "pron" : "ごご",
+        "eng" : "gogo",
+        "mean" : "오후"
+    },
+    {
+        "id" : "275",
+        "value" : "午后",
+        "pron" : "ごご",
+        "eng" : "gogo",
+        "mean" : "오후"
+    },
+    {
+        "id" : "276",
+        "value" : "五時",
+        "pron" : "ごじ",
+        "eng" : "gozi",
+        "mean" : "5시"
+    },
+    {
+        "id" : "277",
+        "value" : "午前",
+        "pron" : "ごぜん",
+        "eng" : "gozenn",
+        "mean" : "오전"
+    },
+    {
+        "id" : "278",
+        "value" : "ごちそうさまでした",
+        "pron" : "ごちそうさまでした",
+        "eng" : "gotisousamadesita",
+        "mean" : "잘 먹었습니다"
+    },
+    {
+        "id" : "279",
+        "value" : "五人",
+        "pron" : "ごにん",
+        "eng" : "goninn",
+        "mean" : "5명"
+    },
+    {
+        "id" : "280",
+        "value" : "五年",
+        "pron" : "ごねん",
+        "eng" : "gonenn",
+        "mean" : "5년"
+    },
+    {
+        "id" : "281",
+        "value" : "五杯",
+        "pron" : "ごはい",
+        "eng" : "gohai",
+        "mean" : "다섯 잔"
+    },
+    {
+        "id" : "282",
+        "value" : "御飯",
+        "pron" : "ごはん",
+        "eng" : "gohann",
+        "mean" : "식사, 밥"
+    },
+    {
+        "id" : "283",
+        "value" : "五倍",
+        "pron" : "ごばい",
+        "eng" : "gohai",
+        "mean" : "5배"
+    },
+    {
+        "id" : "284",
+        "value" : "五番",
+        "pron" : "ごばん",
+        "eng" : "gobann",
+        "mean" : "5번"
+    },
+    {
+        "id" : "285",
+        "value" : "五匹",
+        "pron" : "ごひき",
+        "eng" : "gohiki",
+        "mean" : "5마리"
+    },
+    {
+        "id" : "286",
+        "value" : "五分",
+        "pron" : "ごふん",
+        "eng" : "gohunn",
+        "mean" : "5분"
+    },
+    {
+        "id" : "287",
+        "value" : "五本",
+        "pron" : "ごほん",
+        "eng" : "gohonn",
+        "mean" : "5자루"
+    },
+    {
+        "id" : "288",
+        "value" : "五枚",
+        "pron" : "ごまい",
+        "eng" : "gomai",
+        "mean" : "5장"
+    },
+    {
+        "id" : "289",
+        "value" : "ごめんなさい",
+        "pron" : "ごめんなさい",
+        "eng" : "gomennnasai",
+        "mean" : "미안합니다"
+    },
+    {
+        "id" : "290",
+        "value" : "財布",
+        "pron" : "さいふ",
+        "eng" : "saihu",
+        "mean" : "돈지갑"
+    },
+    {
+        "id" : "291",
+        "value" : "魚",
+        "pron" : "さかな",
+        "eng" : "sakana",
+        "mean" : "물고기"
+    },
+    {
+        "id" : "292",
+        "value" : "先",
+        "pron" : "さき",
+        "eng" : "saki",
+        "mean" : "앞, 선두"
+    },
+    {
+        "id" : "293",
+        "value" : "咲く",
+        "pron" : "さく",
+        "eng" : "saku",
+        "mean" : "피다"
+    },
+    {
+        "id" : "294",
+        "value" : "作文",
+        "pron" : "さくぶん",
+        "eng" : "sakubunn",
+        "mean" : "작문"
+    },
+    {
+        "id" : "295",
+        "value" : "寒い",
+        "pron" : "さむい",
+        "eng" : "samui",
+        "mean" : "춥다"
+    },
+    {
+        "id" : "296",
+        "value" : "さようなら",
+        "pron" : "さようなら",
+        "eng" : "sayounara",
+        "mean" : "안녕히 가세요"
+    },
+    {
+        "id" : "297",
+        "value" : "三",
+        "pron" : "さん",
+        "eng" : "sann",
+        "mean" : "셋"
+    },
+    {
+        "id" : "298",
+        "value" : "三円",
+        "pron" : "さんえん",
+        "eng" : "sannenn",
+        "mean" : "3엔"
+    },
+    {
+        "id" : "299",
+        "value" : "三回",
+        "pron" : "さんかい",
+        "eng" : "sannkai",
+        "mean" : "3회"
+    },
+    {
+        "id" : "300",
+        "value" : "三階",
+        "pron" : "さんかい",
+        "eng" : "sannkai",
+        "mean" : "3층"
+    },
+    {
+        "id" : "301",
+        "value" : "三月",
+        "pron" : "さんがつ",
+        "eng" : "sanngatu",
+        "mean" : "3월"
+    },
+    {
+        "id" : "302",
+        "value" : "三個",
+        "pron" : "さんこ",
+        "eng" : "sannko",
+        "mean" : "3개"
+    },
+    {
+        "id" : "303",
+        "value" : "三時",
+        "pron" : "さんじ",
+        "eng" : "sannzi",
+        "mean" : "3시, 오후의 간식"
+    },
+    {
+        "id" : "304",
+        "value" : "三人",
+        "pron" : "さんにん",
+        "eng" : "sannninn",
+        "mean" : "3인"
+    },
+    {
+        "id" : "305",
+        "value" : "三年",
+        "pron" : "さんねん",
+        "eng" : "sannnenn",
+        "mean" : "삼년"
+    },
+    {
+        "id" : "306",
+        "value" : "三倍",
+        "pron" : "さんばい",
+        "eng" : "sannbai",
+        "mean" : "3배"
+    },
+    {
+        "id" : "307",
+        "value" : "三杯",
+        "pron" : "さんばい",
+        "eng" : "sannbai",
+        "mean" : "세 잔"
+    },
+    {
+        "id" : "308",
+        "value" : "三番",
+        "pron" : "さんばん",
+        "eng" : "sannbann",
+        "mean" : "세 번째"
+    },
+    {
+        "id" : "309",
+        "value" : "三匹",
+        "pron" : "さんびき",
+        "eng" : "sannbiki",
+        "mean" : "3마리"
+    },
+    {
+        "id" : "310",
+        "value" : "三分",
+        "pron" : "さんぷん",
+        "eng" : "sannpunn",
+        "mean" : "3분"
+    },
+    {
+        "id" : "311",
+        "value" : "三本",
+        "pron" : "さんぼん",
+        "eng" : "sannbonn",
+        "mean" : "세 자루"
+    },
+    {
+        "id" : "312",
+        "value" : "散歩",
+        "pron" : "さんぽ",
+        "eng" : "sannpo",
+        "mean" : "산책"
+    },
+    {
+        "id" : "313",
+        "value" : "三枚",
+        "pron" : "さんまい",
+        "eng" : "sannmai",
+        "mean" : "석 장"
+    },
+    {
+        "id" : "314",
+        "value" : "雑誌",
+        "pron" : "ざっし",
+        "eng" : "zassi",
+        "mean" : "잡지"
+    },
+    {
+        "id" : "315",
+        "value" : "四",
+        "pron" : "し",
+        "eng" : "si",
+        "mean" : "넷"
+    },
+    {
+        "id" : "316",
+        "value" : "塩",
+        "pron" : "しお",
+        "eng" : "sio",
+        "mean" : "소금"
+    },
+    {
+        "id" : "317",
+        "value" : "四月",
+        "pron" : "しがつ",
+        "eng" : "sigatu",
+        "mean" : "4월"
+    },
+    {
+        "id" : "318",
+        "value" : "仕事",
+        "pron" : "しごと",
+        "eng" : "sigoto",
+        "mean" : "일"
+    },
+    {
+        "id" : "319",
+        "value" : "静か",
+        "pron" : "しずか",
+        "eng" : "sizuka",
+        "mean" : "조용한"
+    },
+    {
+        "id" : "320",
+        "value" : "下",
+        "pron" : "した",
+        "eng" : "sita",
+        "mean" : "아래"
+    },
+    {
+        "id" : "321",
+        "value" : "七",
+        "pron" : "しち",
+        "eng" : "siti",
+        "mean" : "일곱"
+    },
+    {
+        "id" : "322",
+        "value" : "七月",
+        "pron" : "しちがつ",
+        "eng" : "sitigatu",
+        "mean" : "7월"
+    },
+    {
+        "id" : "323",
+        "value" : "七時",
+        "pron" : "しちじ",
+        "eng" : "sitizi",
+        "mean" : "7시"
+    },
+    {
+        "id" : "324",
+        "value" : "七人",
+        "pron" : "しちにん",
+        "eng" : "sitininn",
+        "mean" : "7명"
+    },
+    {
+        "id" : "325",
+        "value" : "七年",
+        "pron" : "しちねん",
+        "eng" : "sitinenn",
+        "mean" : "7년"
+    },
+    {
+        "id" : "326",
+        "value" : "七分",
+        "pron" : "しちふん",
+        "eng" : "sitihunn",
+        "mean" : "7분"
+    },
+    {
+        "id" : "326",
+        "value" : "七枚",
+        "pron" : "しちまい",
+        "eng" : "sitimai",
+        "mean" : "7장"
+    },
+    {
+        "id" : "327",
+        "value" : "失礼します",
+        "pron" : "しつれいします",
+        "eng" : "situreisimasu",
+        "mean" : "실례하겠습니다"
+    },
+    {
+        "id" : "328",
+        "value" : "死ぬ",
+        "pron" : "しぬ",
+        "eng" : "sinu",
+        "mean" : "죽다"
+    },
+    {
+        "id" : "329",
+        "value" : "閉まる",
+        "pron" : "しまる",
+        "eng" : "simaru",
+        "mean" : "닫히다"
+    },
+    {
+        "id" : "330",
+        "value" : "閉める",
+        "pron" : "しめる",
+        "eng" : "simeru",
+        "mean" : "닫다"
+    },
+    {
+        "id" : "331",
+        "value" : "締める",
+        "pron" : "しめる",
+        "eng" : "simeru",
+        "mean" : "조르다"
+    },
+    {
+        "id" : "332",
+        "value" : "写真",
+        "pron" : "しゃしん",
+        "eng" : "syasinn",
+        "mean" : "사진"
+    },
+    {
+        "id" : "333",
+        "value" : "宿題",
+        "pron" : "しゅくだい",
+        "eng" : "syukudai",
+        "mean" : "숙제"
+    },
+    {
+        "id" : "334",
+        "value" : "食堂",
+        "pron" : "しょくどう",
+        "eng" : "syokudou",
+        "mean" : "식당"
+    },
+    {
+        "id" : "335",
+        "value" : "白い",
+        "pron" : "しろい",
+        "eng" : "siroi",
+        "mean" : "희다"
+    },
+    {
+        "id" : "336",
+        "value" : "新聞",
+        "pron" : "しんぶん",
+        "eng" : "sinnbunn",
+        "mean" : "신문"
+    },
+    {
+        "id" : "337",
+        "value" : "時間",
+        "pron" : "じかん",
+        "eng" : "zikann",
+        "mean" : "시간"
+    },
+    {
+        "id" : "338",
+        "value" : "辞書",
+        "pron" : "じしょ",
+        "eng" : "zisyo",
+        "mean" : "사전"
+    },
+    {
+        "id" : "339",
+        "value" : "十回",
+        "pron" : "じっかい",
+        "eng" : "zikkai",
+        "mean" : "10회"
+    },
+    {
+        "id" : "340",
+        "value" : "十階",
+        "pron" : "じっかい",
+        "eng" : "zikkai",
+        "mean" : "10층"
+    },
+    {
+        "id" : "341",
+        "value" : "十個",
+        "pron" : "じっこ",
+        "eng" : "zikko",
+        "mean" : "10개"
+    },
+    {
+        "id" : "342",
+        "value" : "十杯",
+        "pron" : "じっぱい",
+        "eng" : "zippai",
+        "mean" : "열 잔"
+    },
+    {
+        "id" : "343",
+        "value" : "十匹",
+        "pron" : "じっぴき",
+        "eng" : "zippiki",
+        "mean" : "10마리"
+    },
+    {
+        "id" : "344",
+        "value" : "十分",
+        "pron" : "じっぷん",
+        "eng" : "zippunn",
+        "mean" : "10분"
+    },
+    {
+        "id" : "345",
+        "value" : "十本",
+        "pron" : "じっぽん",
+        "eng" : "zipponn",
+        "mean" : "10자루"
+    },
+    {
+        "id" : "346",
+        "value" : "十",
+        "pron" : "じゅう",
+        "eng" : "zyuu",
+        "mean" : "10"
+    },
+    {
+        "id" : "347",
+        "value" : "十円",
+        "pron" : "じゅうえん",
+        "eng" : "zyuuenn",
+        "mean" : "10엔"
+    },
+    {
+        "id" : "348",
+        "value" : "十月",
+        "pron" : "じゅうがつ",
+        "eng" : "zyuugatu",
+        "mean" : "시월"
+    },
+    {
+        "id" : "349",
+        "value" : "十時",
+        "pron" : "じゅうじ",
+        "eng" : "zyuuzi",
+        "mean" : "10시"
+    },
+    {
+        "id" : "350",
+        "value" : "十人",
+        "pron" : "じゅうにん",
+        "eng" : "zyuuninn",
+        "mean" : "10명"
+    },
+    {
+        "id" : "351",
+        "value" : "十年",
+        "pron" : "じゅうねん",
+        "eng" : "zyuunenn",
+        "mean" : "10년"
+    },
+    {
+        "id" : "352",
+        "value" : "十倍",
+        "pron" : "じゅうばい",
+        "eng" : "zyuubai",
+        "mean" : "10배"
+    },
+    {
+        "id" : "353",
+        "value" : "十番",
+        "pron" : "じゅうばん",
+        "eng" : "zyuubann",
+        "mean" : "10번"
+    },
+    {
+        "id" : "354",
+        "value" : "十枚",
+        "pron" : "じゅうまい",
+        "eng" : "zyuumai",
+        "mean" : "10장"
+    },
+    {
+        "id" : "355",
+        "value" : "十階",
+        "pron" : "じゅっかい",
+        "eng" : "zyukkai",
+        "mean" : "10층"
+    },
+    {
+        "id" : "356",
+        "value" : "十回",
+        "pron" : "じゅっかい",
+        "eng" : "zyukkai",
+        "mean" : "10회"
+    },
+    {
+        "id" : "357",
+        "value" : "十個",
+        "pron" : "じゅっこ",
+        "eng" : "zyukko",
+        "mean" : "10개"
+    },
+    {
+        "id" : "358",
+        "value" : "十杯",
+        "pron" : "じゅっぱい",
+        "eng" : "zyuppai",
+        "mean" : "열 잔"
+    },
+    {
+        "id" : "359",
+        "value" : "十匹",
+        "pron" : "じゅっぴき",
+        "eng" : "zyuppiki",
+        "mean" : "10마리"
+    },
+    {
+        "id" : "360",
+        "value" : "十分",
+        "pron" : "じゅっぷん",
+        "eng" : "zyuppunn",
+        "mean" : "10분"
+    },
+    {
+        "id" : "361",
+        "value" : "十本",
+        "pron" : "じゅっぽん",
+        "eng" : "zyupponn",
+        "mean" : "10자루"
+    },
+    {
+        "id" : "362",
+        "value" : "上手",
+        "pron" : "じょうず",
+        "eng" : "zyouzu",
+        "mean" : "잘함"
+    },
+    {
+        "id" : "363",
+        "value" : "丈夫",
+        "pron" : "じょうぶ",
+        "eng" : "zyouubu",
+        "mean" : "건강함"
+    },
+    {
+        "id" : "364",
+        "value" : "水曜日",
+        "pron" : "すいようび",
+        "eng" : "suiyoubi",
+        "mean" : "수요일"
+    },
+    {
+        "id" : "365",
+        "value" : "吸う",
+        "pron" : "すう",
+        "eng" : "suu",
+        "mean" : "마시다"
+    },
+    {
+        "id" : "366",
+        "value" : "好き",
+        "pron" : "すき",
+        "eng" : "suki",
+        "mean" : "좋아함"
+    },
+    {
+        "id" : "367",
+        "value" : "少ない",
+        "pron" : "すくない",
+        "eng" : "sukunai",
+        "mean" : "적다"
+    },
+    {
+        "id" : "368",
+        "value" : "直ぐ",
+        "pron" : "すぐ",
+        "eng" : "sugu",
+        "mean" : "곧"
+    },
+    {
+        "id" : "369",
+        "value" : "少し",
+        "pron" : "すこし",
+        "eng" : "sukosi",
+        "mean" : "조금"
+    },
+    {
+        "id" : "370",
+        "value" : "すみません",
+        "pron" : "すみません",
+        "eng" : "sumimasenn",
+        "mean" : "죄송합니다"
+    },
+    {
+        "id" : "371",
+        "value" : "住む",
+        "pron" : "すむ",
+        "eng" : "sumu",
+        "mean" : "살다"
+    },
+    {
+        "id" : "372",
+        "value" : "為る",
+        "pron" : "する",
+        "eng" : "suru",
+        "mean" : "하다"
+    },
+    {
+        "id" : "373",
+        "value" : "座る",
+        "pron" : "すわる",
+        "eng" : "suwaru",
+        "mean" : "앉다"
+    },
+    {
+        "id" : "374",
+        "value" : "背",
+        "pron" : "せ",
+        "eng" : "se",
+        "mean" : "등"
+    },
+    {
+        "id" : "375",
+        "value" : "生徒",
+        "pron" : "せいと",
+        "eng" : "seito",
+        "mean" : "학생"
+    },
+    {
+        "id" : "376",
+        "value" : "石鹸",
+        "pron" : "せっけん",
+        "eng" : "sekkenn",
+        "mean" : "비누"
+    },
+    {
+        "id" : "377",
+        "value" : "節倹",
+        "pron" : "せっけん",
+        "eng" : "sekkenn",
+        "mean" : "절약"
+    },
+    {
+        "id" : "378",
+        "value" : "狭い",
+        "pron" : "せまい",
+        "eng" : "semai",
+        "mean" : "좁다"
+    },
+    {
+        "id" : "379",
+        "value" : "千",
+        "pron" : "せん",
+        "eng" : "senn",
+        "mean" : "천"
+    },
+    {
+        "id" : "380",
+        "value" : "先月",
+        "pron" : "せんげつ",
+        "eng" : "senngetu",
+        "mean" : "지난 달"
+    },
+    {
+        "id" : "381",
+        "value" : "先週",
+        "pron" : "せんしゅう",
+        "eng" : "sennsyuu",
+        "mean" : "지난 주"
+    },
+    {
+        "id" : "382",
+        "value" : "先生",
+        "pron" : "せんせい",
+        "eng" : "sennsei",
+        "mean" : "선생"
+    },
+    {
+        "id" : "383",
+        "value" : "そこ",
+        "pron" : "そこ",
+        "eng" : "soko",
+        "mean" : "거기"
+    },
+    {
+        "id" : "384",
+        "value" : "其方",
+        "pron" : "そちら",
+        "eng" : "sotira",
+        "mean" : "그 쪽"
+    },
+    {
+        "id" : "385",
+        "value" : "外",
+        "pron" : "そと",
+        "eng" : "soto",
+        "mean" : "밖"
+    },
+    {
+        "id" : "386",
+        "value" : "其の",
+        "pron" : "その",
+        "eng" : "sono",
+        "mean" : "그"
+    },
+    {
+        "id" : "387",
+        "value" : "蕎麦",
+        "pron" : "そば",
+        "eng" : "soba",
+        "mean" : "메밀국수"
+    },
+    {
+        "id" : "388",
+        "value" : "空",
+        "pron" : "そら",
+        "eng" : "sora",
+        "mean" : "하늘"
+    },
+    {
+        "id" : "389",
+        "value" : "其れ",
+        "pron" : "それ",
+        "eng" : "sore",
+        "mean" : "그것"
+    },
+    {
+        "id" : "390",
+        "value" : "そんな",
+        "pron" : "そんな",
+        "eng" : "sonnna",
+        "mean" : "그런"
+    },
+    {
+        "id" : "391",
+        "value" : "大変",
+        "pron" : "たいへん",
+        "eng" : "taihenn",
+        "mean" : "몹시"
+    },
+    {
+        "id" : "392",
+        "value" : "高い",
+        "pron" : "たかい",
+        "eng" : "takai",
+        "mean" : "놉다, 비싸다"
+    },
+    {
+        "id" : "393",
+        "value" : "沢山",
+        "pron" : "たくさん",
+        "eng" : "takusann",
+        "mean" : "많음"
+    },
+    {
+        "id" : "394",
+        "value" : "立つ",
+        "pron" : "たつ",
+        "eng" : "tatu",
+        "mean" : "일어나다"
+    },
+    {
+        "id" : "395",
+        "value" : "建物",
+        "pron" : "たてもの",
+        "eng" : "tatemono",
+        "mean" : "건물"
+    },
+    {
+        "id" : "396",
+        "value" : "楽しい",
+        "pron" : "たのしい",
+        "eng" : "tanosii",
+        "mean" : "즐겁다"
+    },
+    {
+        "id" : "397",
+        "value" : "楽しい",
+        "pron" : "たのしい",
+        "eng" : "tanosii",
+        "mean" : "즐겁다"
+    },
+    {
+        "id" : "398",
+        "value" : "食べ物",
+        "pron" : "たべもの",
+        "eng" : "tabemono",
+        "mean" : "음식물"
+    },
+    {
+        "id" : "399",
+        "value" : "食べる",
+        "pron" : "たべる",
+        "eng" : "taberu",
+        "mean" : "먹다"
+    },
+    {
+        "id" : "400",
+        "value" : "卵",
+        "pron" : "たまご",
+        "eng" : "tamago",
+        "mean" : "달걀"
+    },
+    {
+        "id" : "401",
+        "value" : "玉子",
+        "pron" : "たまご",
+        "eng" : "tamago",
+        "mean" : "달걀"
+    },
+    {
+        "id" : "402",
+        "value" : "誕生日",
+        "pron" : "たんじょうび",
+        "eng" : "tannzyouubi",
+        "mean" : "생일"
+    },
+    {
+        "id" : "403",
+        "value" : "大学",
+        "pron" : "だいがく",
+        "eng" : "daigaku",
+        "mean" : "대학"
+    },
+    {
+        "id" : "404",
+        "value" : "大丈夫",
+        "pron" : "だいじょうぶ",
+        "eng" : "daizyoubu",
+        "mean" : "괜찮음"
+    },
+    {
+        "id" : "405",
+        "value" : "大好き",
+        "pron" : "だいすき",
+        "eng" : "daisuki",
+        "mean" : "매우 좋아함"
+    },
+    {
+        "id" : "406",
+        "value" : "台所",
+        "pron" : "だいどころ",
+        "eng" : "daidokoro",
+        "mean" : "부엌"
+    },
+    {
+        "id" : "407",
+        "value" : "丈",
+        "pron" : "だけ",
+        "eng" : "dake",
+        "mean" : "정도, 만큼"
+    },
+    {
+        "id" : "408",
+        "value" : "出す",
+        "pron" : "だす",
+        "eng" : "dasu",
+        "mean" : "내놓다, 하기 시작하다"
+    },
+    {
+        "id" : "409",
+        "value" : "誰",
+        "pron" : "だれ",
+        "eng" : "dare",
+        "mean" : "누구"
+    },
+    {
+        "id" : "410",
+        "value" : "段段",
+        "pron" : "だんだん",
+        "eng" : "danndann",
+        "mean" : "점점"
+    },
+    {
+        "id" : "411",
+        "value" : "小さい",
+        "pron" : "ちいさい",
+        "eng" : "tiisai",
+        "mean" : "작다"
+    },
+    {
+        "id" : "412",
+        "value" : "小さな",
+        "pron" : "ちいさな",
+        "eng" : "tiisa",
+        "mean" : "작은"
+    },
+    {
+        "id" : "413",
+        "value" : "近い",
+        "pron" : "ちかい",
+        "eng" : "tikai",
+        "mean" : "가깝다"
+    },
+    {
+        "id" : "414",
+        "value" : "近く",
+        "pron" : "ちかく",
+        "eng" : "tikaku",
+        "mean" : "가까운 곳"
+    },
+    {
+        "id" : "415",
+        "value" : "地下鉄",
+        "pron" : "ちかてつ",
+        "eng" : "tikatetu",
+        "mean" : "지하철"
+    },
+    {
+        "id" : "416",
+        "value" : "父",
+        "pron" : "ちち",
+        "eng" : "titi",
+        "mean" : "아빠"
+    },
+    {
+        "id" : "417",
+        "value" : "一寸",
+        "pron" : "ちょっと",
+        "eng" : "tyotto",
+        "mean" : "조금"
+    },
+    {
+        "id" : "418",
+        "value" : "鳥渡",
+        "pron" : "ちょっと",
+        "eng" : "tyotto",
+        "mean" : "조금"
+    },
+    {
+        "id" : "419",
+        "value" : "一日",
+        "pron" : "ついたち",
+        "eng" : "tuitati",
+        "mean" : "초하루"
+    },
+    {
+        "id" : "420",
+        "value" : "使う",
+        "pron" : "つかう",
+        "eng" : "tukau",
+        "mean" : "쓰다"
+    },
+    {
+        "id" : "421",
+        "value" : "次",
+        "pron" : "つぎ",
+        "eng" : "tugi",
+        "mean" : "다음"
+    },
+    {
+        "id" : "422",
+        "value" : "机",
+        "pron" : "つくえ",
+        "eng" : "tukue",
+        "mean" : "책상"
+    },
+    {
+        "id" : "423",
+        "value" : "作る",
+        "pron" : "つくる",
+        "eng" : "tukuru",
+        "mean" : "만들다"
+    },
+    {
+        "id" : "424",
+        "value" : "強い",
+        "pron" : "つよい",
+        "eng" : "tuyoi",
+        "mean" : "강하다"
+    },
+    {
+        "id" : "425",
+        "value" : "手",
+        "pron" : "て",
+        "eng" : "te",
+        "mean" : "손"
+    },
+    {
+        "id" : "426",
+        "value" : "手紙",
+        "pron" : "てがみ",
+        "eng" : "tegami",
+        "mean" : "편지"
+    },
+    {
+        "id" : "427",
+        "value" : "天気",
+        "pron" : "てんき",
+        "eng" : "tennki",
+        "mean" : "날씨"
+    },
+    {
+        "id" : "428",
+        "value" : "出口",
+        "pron" : "でぐち",
+        "eng" : "deguti",
+        "mean" : "출구"
+    },
+    {
+        "id" : "429",
+        "value" : "でも",
+        "pron" : "でも",
+        "eng" : "demo",
+        "mean" : "그래도"
+    },
+    {
+        "id" : "430",
+        "value" : "出る",
+        "pron" : "でる",
+        "eng" : "deru",
+        "mean" : "나가다"
+    },
+    {
+        "id" : "431",
+        "value" : "電気",
+        "pron" : "でんき",
+        "eng" : "dennki",
+        "mean" : "전기"
+    },
+    {
+        "id" : "432",
+        "value" : "電車",
+        "pron" : "でんしゃ",
+        "eng" : "dennsya",
+        "mean" : "전차"
+    },
+    {
+        "id" : "433",
+        "value" : "電話",
+        "pron" : "でんわ",
+        "eng" : "dennwa",
+        "mean" : "전화"
+    },
+    {
+        "id" : "434",
+        "value" : "遠い",
+        "pron" : "とおい",
+        "eng" : "tooi",
+        "mean" : "멀다"
+    },
+    {
+        "id" : "435",
+        "value" : "十日",
+        "pron" : "とおか",
+        "eng" : "tooka",
+        "mean" : "10일간"
+    },
+    {
+        "id" : "436",
+        "value" : "時時",
+        "pron" : "ときどき",
+        "eng" : "tokidoki",
+        "mean" : "가끔"
+    },
+    {
+        "id" : "437",
+        "value" : "時計",
+        "pron" : "とけい",
+        "eng" : "tokei",
+        "mean" : "시계"
+    },
+    {
+        "id" : "438",
+        "value" : "所",
+        "pron" : "ところ",
+        "eng" : "tokoro",
+        "mean" : "곳, 장소"
+    },
+    {
+        "id" : "439",
+        "value" : "処",
+        "pron" : "ところ",
+        "eng" : "tokoro",
+        "mean" : "곳, 장소"
+    },
+    {
+        "id" : "440",
+        "value" : "年",
+        "pron" : "とし",
+        "eng" : "tosi",
+        "mean" : "해, 나이"
+    },
+    {
+        "id" : "441",
+        "value" : "歳",
+        "pron" : "とし",
+        "eng" : "tosi",
+        "mean" : "해, 나이"
+    },
+    {
+        "id" : "442",
+        "value" : "図書館",
+        "pron" : "としょかん",
+        "eng" : "tosyokann",
+        "mean" : "도서관"
+    },
+    {
+        "id" : "443",
+        "value" : "迚も",
+        "pron" : "とても",
+        "eng" : "totemo",
+        "mean" : "도저히"
+    },
+    {
+        "id" : "444",
+        "value" : "隣",
+        "pron" : "となり",
+        "eng" : "torari",
+        "mean" : "이웃집"
+    },
+    {
+        "id" : "445",
+        "value" : "鄰",
+        "pron" : "となり",
+        "eng" : "torari",
+        "mean" : "이웃집"
+    },
+    {
+        "id" : "446",
+        "value" : "飛ぶ",
+        "pron" : "とぶ",
+        "eng" : "tobu",
+        "mean" : "날다"
+    },
+    {
+        "id" : "447",
+        "value" : "友達",
+        "pron" : "ともだち",
+        "eng" : "tomodati",
+        "mean" : "친구"
+    },
+    {
+        "id" : "448",
+        "value" : "鳥",
+        "pron" : "とり",
+        "eng" : "tori",
+        "mean" : "새"
+    },
+    {
+        "id" : "449",
+        "value" : "鳥肉",
+        "pron" : "とりにく",
+        "eng" : "toriniku",
+        "mean" : "닭고기"
+    },
+    {
+        "id" : "450",
+        "value" : "撮る",
+        "pron" : "とる",
+        "eng" : "toru",
+        "mean" : "찍다"
+    },
+    {
+        "id" : "451",
+        "value" : "如何",
+        "pron" : "どう",
+        "eng" : "dou",
+        "mean" : "어떻게"
+    },
+    {
+        "id" : "452",
+        "value" : "如何致しまして",
+        "pron" : "どういたしまして",
+        "eng" : "douitasimasite",
+        "mean" : "천만의 말씀입니다"
+    },
+    {
+        "id" : "453",
+        "value" : "如何して",
+        "pron" : "どうして",
+        "eng" : "dousite",
+        "mean" : "어떻게"
+    },
+    {
+        "id" : "454",
+        "value" : "何卒",
+        "pron" : "どうぞ",
+        "eng" : "douzo",
+        "mean" : "승낙을 나타내는 표현"
+    },
+    {
+        "id" : "455",
+        "value" : "どうぞ",
+        "pron" : "どうぞ",
+        "eng" : "douzo",
+        "mean" : "승낙을 나타내는 표현"
+    },
+    {
+        "id" : "456",
+        "value" : "動物",
+        "pron" : "どうぶつ",
+        "eng" : "doubutu",
+        "mean" : "동물"
+    },
+    {
+        "id" : "457",
+        "value" : "どうも",
+        "pron" : "どうも",
+        "eng" : "doumo",
+        "mean" : "정말, 매우"
+    },
+    {
+        "id" : "458",
+        "value" : "何処",
+        "pron" : "どこ",
+        "eng" : "doko",
+        "mean" : "어디"
+    },
+    {
+        "id" : "459",
+        "value" : "何方",
+        "pron" : "どちら",
+        "eng" : "dotira",
+        "mean" : "어느 쪽"
+    },
+    {
+        "id" : "460",
+        "value" : "何方",
+        "pron" : "どなた",
+        "eng" : "donata",
+        "mean" : "어느 분"
+    },
+    {
+        "id" : "461",
+        "value" : "何の",
+        "pron" : "どの",
+        "eng" : "dono",
+        "mean" : ""
+    },
+    {
+        "id" : "462",
+        "value" : "土曜日",
+        "pron" : "どようび",
+        "eng" : "doyoubi",
+        "mean" : "토요일"
+    },
+    {
+        "id" : "463",
+        "value" : "何れ",
+        "pron" : "どれ",
+        "eng" : "dore",
+        "mean" : "어느 것"
+    },
+    {
+        "id" : "464",
+        "value" : "何様な",
+        "pron" : "どんな",
+        "eng" : "donnna",
+        "mean" : "어떤"
+    },
+    {
+        "id" : "465",
+        "value" : "無い",
+        "pron" : "ない",
+        "eng" : "nai",
+        "mean" : "없다"
+    },
+    {
+        "id" : "466",
+        "value" : "中",
+        "pron" : "なか",
+        "eng" : "naka",
+        "mean" : "가운데"
+    },
+    {
+        "id" : "467",
+        "value" : "長い",
+        "pron" : "ながい",
+        "eng" : "nagai",
+        "mean" : "긴"
+    },
+    {
+        "id" : "468",
+        "value" : "何故",
+        "pron" : "なぜ ",
+        "eng" : "naze",
+        "mean" : "왜"
+    },
+    {
+        "id" : "469",
+        "value" : "なぜ",
+        "pron" : "なぜ",
+        "eng" : "naze",
+        "mean" : "왜"
+    },
+    {
+        "id" : "470",
+        "value" : "夏",
+        "pron" : "なつ",
+        "eng" : "natu",
+        "mean" : "여름"
+    },
+    {
+        "id" : "471",
+        "value" : "夏休み",
+        "pron" : "なつやすみ",
+        "eng" : "natuyatumi",
+        "mean" : "여름방학"
+    },
+    {
+        "id" : "472",
+        "value" : "七",
+        "pron" : "なな",
+        "eng" : "nana",
+        "mean" : "일곱"
+    },
+    {
+        "id" : "473",
+        "value" : "七円",
+        "pron" : "ななえん",
+        "eng" : "nanaenn",
+        "mean" : "7엔"
+    },
+    {
+        "id" : "474",
+        "value" : "七回",
+        "pron" : "ななかい",
+        "eng" : "nanakai",
+        "mean" : "7회"
+    },
+    {
+        "id" : "475",
+        "value" : "七階",
+        "pron" : "ななかい",
+        "eng" : "nanakai",
+        "mean" : "7층"
+    },
+    {
+        "id" : "476",
+        "value" : "七個",
+        "pron" : "ななこ",
+        "eng" : "nanako",
+        "mean" : "7개"
+    },
+    {
+        "id" : "477",
+        "value" : "七人",
+        "pron" : "ななにん",
+        "eng" : "nananinn",
+        "mean" : "7명"
+    },
+    {
+        "id" : "478",
+        "value" : "七年",
+        "pron" : "ななねん",
+        "eng" : "nananenn",
+        "mean" : "7년"
+    },
+    {
+        "id" : "479",
+        "value" : "七杯",
+        "pron" : "ななはい",
+        "eng" : "nanahai",
+        "mean" : "7잔"
+    },
+    {
+        "id" : "480",
+        "value" : "七倍",
+        "pron" : "ななばい",
+        "eng" : "nanabai",
+        "mean" : "7배"
+    },
+    {
+        "id" : "481",
+        "value" : "七番",
+        "pron" : "ななばん",
+        "eng" : "nanabann",
+        "mean" : "7번"
+    },
+    {
+        "id" : "482",
+        "value" : "七匹",
+        "pron" : "ななひき",
+        "eng" : "nanahiki",
+        "mean" : "7마리"
+    },
+    {
+        "id" : "483",
+        "value" : "七分",
+        "pron" : "ななふん",
+        "eng" : "nanahunn",
+        "mean" : "7분"
+    },
+    {
+        "id" : "484",
+        "value" : "七本",
+        "pron" : "ななほん",
+        "eng" : "nanahonn",
+        "mean" : "7자루"
+    },
+    {
+        "id" : "485",
+        "value" : "七枚",
+        "pron" : "ななまい",
+        "eng" : "nanamai",
+        "mean" : "7장"
+    },
+    {
+        "id" : "486",
+        "value" : "何",
+        "pron" : "なに",
+        "eng" : "nani",
+        "mean" : "무엇"
+    },
+    {
+        "id" : "487",
+        "value" : "七日",
+        "pron" : "なのか",
+        "eng" : "nanoka",
+        "mean" : "7일간"
+    },
+    {
+        "id" : "488",
+        "value" : "名前",
+        "pron" : "なまえ",
+        "eng" : "namae",
+        "mean" : "이름"
+    },
+    {
+        "id" : "489",
+        "value" : "習う",
+        "pron" : "ならう",
+        "eng" : "narau",
+        "mean" : "연습하다"
+    },
+    {
+        "id" : "490",
+        "value" : "何回",
+        "pron" : "なんかい",
+        "eng" : "nannkai",
+        "mean" : "몇 회"
+    },
+    {
+        "id" : "491",
+        "value" : "何階",
+        "pron" : "なんがい",
+        "eng" : "nanngai",
+        "mean" : "몇 층"
+    },
+    {
+        "id" : "492",
+        "value" : "何月",
+        "pron" : "なんがつ",
+        "eng" : "nanngatu",
+        "mean" : "몇 월"
+    },
+    {
+        "id" : "493",
+        "value" : "何個",
+        "pron" : "なんこ",
+        "eng" : "nannko",
+        "mean" : "몇 개"
+    },
+    {
+        "id" : "494",
+        "value" : "何時",
+        "pron" : "なんじ",
+        "eng" : "nannzi",
+        "mean" : "몇 시"
+    },
+    {
+        "id" : "495",
+        "value" : "何日",
+        "pron" : "なんにち",
+        "eng" : "nannniti",
+        "mean" : "며칠"
+    },
+    {
+        "id" : "496",
+        "value" : "何人",
+        "pron" : "なんにん",
+        "eng" : "nannninn",
+        "mean" : "몇 사람"
+    },
+    {
+        "id" : "497",
+        "value" : "何年",
+        "pron" : "なんねん",
+        "eng" : "nannnenn",
+        "mean" : "몇 해"
+    },
+    {
+        "id" : "498",
+        "value" : "何杯",
+        "pron" : "なんばい",
+        "eng" : "nannpai",
+        "mean" : "몇 잔"
+    },
+    {
+        "id" : "499",
+        "value" : "何倍",
+        "pron" : "なんばい",
+        "eng" : "nannbai",
+        "mean" : "몇 배"
+    },
+    {
+        "id" : "500",
+        "value" : "何番",
+        "pron" : "なんばん",
+        "eng" : "nannbann",
+        "mean" : "몇 번"
+    },
+    {
+        "id" : "501",
+        "value" : "何匹",
+        "pron" : "なんびき",
+        "eng" : "nannbiki",
+        "mean" : "몇 마리"
+    },
+    {
+        "id" : "502",
+        "value" : "何分",
+        "pron" : "なんぷん",
+        "eng" : "nannpinn",
+        "mean" : "몇 분"
+    },
+    {
+        "id" : "503",
+        "value" : "何本",
+        "pron" : "なんぼん",
+        "eng" : "nannbonn",
+        "mean" : "몇 자루"
+    },
+    {
+        "id" : "504",
+        "value" : "何枚",
+        "pron" : "なんまい",
+        "eng" : "nannmai",
+        "mean" : "몇 징"
+    },
+    {
+        "id" : "505",
+        "value" : "何曜日",
+        "pron" : "なんようび",
+        "eng" : "nannyoubi",
+        "mean" : "무슨 요일"
+    },
+    {
+        "id" : "506",
+        "value" : "二",
+        "pron" : "に",
+        "eng" : "ni",
+        "mean" : "둘"
+    },
+    {
+        "id" : "507",
+        "value" : "二円",
+        "pron" : "にえん",
+        "eng" : "nienn",
+        "mean" : "2엔"
+    },
+    {
+        "id" : "508",
+        "value" : "二回",
+        "pron" : "にかい",
+        "eng" : "nikai",
+        "mean" : "2회"
+    },
+    {
+        "id" : "509",
+        "value" : "二階",
+        "pron" : "にかい",
+        "eng" : "nikai",
+        "mean" : "2층"
+    },
+    {
+        "id" : "510",
+        "value" : "二月",
+        "pron" : "にがつ",
+        "eng" : "nigatu",
+        "mean" : "2월"
+    },
+    {
+        "id" : "511",
+        "value" : "賑やか",
+        "pron" : "にぎやか",
+        "eng" : "nigiyaka",
+        "mean" : "활기참"
+    },
+    {
+        "id" : "512",
+        "value" : "肉",
+        "pron" : "にく",
+        "eng" : "niku",
+        "mean" : "고기"
+    },
+    {
+        "id" : "513",
+        "value" : "二個",
+        "pron" : "にこ",
+        "eng" : "niko",
+        "mean" : "2개"
+    },
+    {
+        "id" : "514",
+        "value" : "西",
+        "pron" : "にし",
+        "eng" : "nisi",
+        "mean" : "서쪽"
+    },
+    {
+        "id" : "515",
+        "value" : "二時",
+        "pron" : "にじ",
+        "eng" : "nizi",
+        "mean" : "2시"
+    },
+    {
+        "id" : "516",
+        "value" : "日曜日",
+        "pron" : "にちようび",
+        "eng" : "nitiyoubi",
+        "mean" : "일요일"
+    },
+    {
+        "id" : "517",
+        "value" : "二年",
+        "pron" : "にねん",
+        "eng" : "ninenn",
+        "mean" : "2년"
+    },
+    {
+        "id" : "518",
+        "value" : "二杯",
+        "pron" : "にはい",
+        "eng" : "nihai",
+        "mean" : "두 잔"
+    },
+    {
+        "id" : "519",
+        "value" : "二倍",
+        "pron" : "にばい",
+        "eng" : "nibai",
+        "mean" : "2배"
+    },
+    {
+        "id" : "520",
+        "value" : "二番",
+        "pron" : "にばん",
+        "eng" : "nibann",
+        "mean" : "2등"
+    },
+    {
+        "id" : "521",
+        "value" : "二匹",
+        "pron" : "にひき",
+        "eng" : "nihiki",
+        "mean" : "2마리"
+    },
+    {
+        "id" : "522",
+        "value" : "二分",
+        "pron" : "にふん",
+        "eng" : "nihunn",
+        "mean" : "2마리"
+    },
+    {
+        "id" : "523",
+        "value" : "二本",
+        "pron" : "にほん",
+        "eng" : "nihonn",
+        "mean" : "2자루"
+    },
+    {
+        "id" : "524",
+        "value" : "日本人",
+        "pron" : "にほんじん",
+        "eng" : "nihonnzinn",
+        "mean" : "일본인"
+    },
+    {
+        "id" : "525",
+        "value" : "二枚",
+        "pron" : "にまい",
+        "eng" : "nimai",
+        "mean" : "두 장"
+    },
+    {
+        "id" : "526",
+        "value" : "庭",
+        "pron" : "にわ",
+        "eng" : "niwa",
+        "mean" : "정원"
+    },
+    {
+        "id" : "527",
+        "value" : "猫",
+        "pron" : "ねこ",
+        "eng" : "neko",
+        "mean" : "고양이"
+    },
+    {
+        "id" : "528",
+        "value" : "寝る",
+        "pron" : "ねる",
+        "eng" : "neru",
+        "mean" : "자다"
+    },
+    {
+        "id" : "529",
+        "value" : "登る",
+        "pron" : "のぼる",
+        "eng" : "noboru",
+        "mean" : "오르다"
+    },
+    {
+        "id" : "530",
+        "value" : "飲み物",
+        "pron" : "のみもの",
+        "eng" : "nomimono",
+        "mean" : "마실 것"
+    },
+    {
+        "id" : "531",
+        "value" : "飲む",
+        "pron" : "のむ",
+        "eng" : "nomu",
+        "mean" : "마시다"
+    },
+    {
+        "id" : "532",
+        "value" : "乗る",
+        "pron" : "のる",
+        "eng" : "noru",
+        "mean" : "타다"
+    },
+    {
+        "id" : "533",
+        "value" : "はい",
+        "pron" : "はい",
+        "eng" : "hai",
+        "mean" : "네"
+    },
+    {
+        "id" : "534",
+        "value" : "灰皿",
+        "pron" : "はいざら",
+        "eng" : "haizara",
+        "mean" : "재떨이"
+    },
+    {
+        "id" : "535",
+        "value" : "入る",
+        "pron" : "はいる",
+        "eng" : "hairu",
+        "mean" : "들어오다"
+    },
+    {
+        "id" : "536",
+        "value" : "葉書",
+        "pron" : "はがき",
+        "eng" : "hagaki",
+        "mean" : "엽서"
+    },
+    {
+        "id" : "537",
+        "value" : "始まる",
+        "pron" : "はじまる",
+        "eng" : "hazimaru",
+        "mean" : "시작하다"
+    },
+    {
+        "id" : "538",
+        "value" : "始めまして",
+        "pron" : "はじめまして",
+        "eng" : "hazimemasite",
+        "mean" : "처음 뵙겠습니다"
+    },
+    {
+        "id" : "539",
+        "value" : "初めまして",
+        "pron" : "はじめまして",
+        "eng" : "hazimemasite",
+        "mean" : "처음 뵙겠습니다"
+    },
+    {
+        "id" : "540",
+        "value" : "二十歳",
+        "pron" : "はたち",
+        "eng" : "hatati",
+        "mean" : "스무살"
+    },
+    {
+        "id" : "541",
+        "value" : "八",
+        "pron" : "はち",
+        "eng" : "hati",
+        "mean" : "여덟"
+    },
+    {
+        "id" : "542",
+        "value" : "八円",
+        "pron" : "はちえん",
+        "eng" : "hatienn",
+        "mean" : "8엔"
+    },
+    {
+        "id" : "543",
+        "value" : "八階",
+        "pron" : "はちかい",
+        "eng" : "hatikai",
+        "mean" : "8층"
+    },
+    {
+        "id" : "544",
+        "value" : "八月",
+        "pron" : "はちがつ",
+        "eng" : "hatigatu",
+        "mean" : "8"
+    },
+    {
+        "id" : "545",
+        "value" : "八時",
+        "pron" : "はちじ",
+        "eng" : "hatizi",
+        "mean" : "8시"
+    },
+    {
+        "id" : "546",
+        "value" : "八人",
+        "pron" : "はちにん",
+        "eng" : "hatininn",
+        "mean" : "8명"
+    },
+    {
+        "id" : "547",
+        "value" : "八年",
+        "pron" : "はちねん",
+        "eng" : "hatinenn",
+        "mean" : "8년"
+    },
+    {
+        "id" : "548",
+        "value" : "八倍",
+        "pron" : "はちばい",
+        "eng" : "hatibai",
+        "mean" : "8배"
+    },
+    {
+        "id" : "549",
+        "value" : "八番",
+        "pron" : "はちばん",
+        "eng" : "hatibann",
+        "mean" : "8번"
+    },
+    {
+        "id" : "550",
+        "value" : "八分",
+        "pron" : "はちふん",
+        "eng" : "hatihunn",
+        "mean" : "8분"
+    },
+    {
+        "id" : "551",
+        "value" : "八枚",
+        "pron" : "はちまい",
+        "eng" : "hatimai",
+        "mean" : "8장"
+    },
+    {
+        "id" : "552",
+        "value" : "八階",
+        "pron" : "はっかい",
+        "eng" : "hakkai",
+        "mean" : "8층"
+    },
+    {
+        "id" : "553",
+        "value" : "八回",
+        "pron" : "はっかい",
+        "eng" : "hakkai",
+        "mean" : "8회"
+    },
+    {
+        "id" : "554",
+        "value" : "八個",
+        "pron" : "はっこ",
+        "eng" : "hakko",
+        "mean" : "8개"
+    },
+    {
+        "id" : "555",
+        "value" : "八杯",
+        "pron" : "はっぱい",
+        "eng" : "happai",
+        "mean" : "여덟 잔"
+    },
+    {
+        "id" : "556",
+        "value" : "八匹",
+        "pron" : "はっぴき",
+        "eng" : "happiki",
+        "mean" : "8마리"
+    },
+    {
+        "id" : "557",
+        "value" : "八分",
+        "pron" : "はっぷん",
+        "eng" : "happunn",
+        "mean" : "8분"
+    },
+    {
+        "id" : "558",
+        "value" : "八本",
+        "pron" : "はっぽん",
+        "eng" : "happonn",
+        "mean" : "8분"
+    },
+    {
+        "id" : "559",
+        "value" : "八本",
+        "pron" : "はっぽん",
+        "eng" : "happonn",
+        "mean" : "8분"
+    },
+    {
+        "id" : "560",
+        "value" : "二十日",
+        "pron" : "はつか",
+        "eng" : "hatuka",
+        "mean" : "20일"
+    },
+    {
+        "id" : "561",
+        "value" : "鼻",
+        "pron" : "はな",
+        "eng" : "hana",
+        "mean" : "코"
+    },
+    {
+        "id" : "562",
+        "value" : "花",
+        "pron" : "はな",
+        "eng" : "hana",
+        "mean" : "꽃"
+    },
+    {
+        "id" : "563",
+        "value" : "華",
+        "pron" : "はな",
+        "eng" : "hana",
+        "mean" : "꽃"
+    },
+    {
+        "id" : "564",
+        "value" : "話",
+        "pron" : "はなし",
+        "eng" : "hanasi",
+        "mean" : "이야기"
+    },
+    {
+        "id" : "565",
+        "value" : "話す",
+        "pron" : "はなす",
+        "eng" : "hanasu",
+        "mean" : "이야기하다"
+    },
+    {
+        "id" : "566",
+        "value" : "母",
+        "pron" : "はは",
+        "eng" : "haha",
+        "mean" : "엄마"
+    },
+    {
+        "id" : "567",
+        "value" : "速い",
+        "pron" : "はやい",
+        "eng" : "hayai",
+        "mean" : "빠르다"
+    },
+    {
+        "id" : "568",
+        "value" : "早い",
+        "pron" : "はやい",
+        "eng" : "hayai",
+        "mean" : "이르다"
+    },
+    {
+        "id" : "569",
+        "value" : "春",
+        "pron" : "はる",
+        "eng" : "haru",
+        "mean" : "봄"
+    },
+    {
+        "id" : "570",
+        "value" : "番号",
+        "pron" : "ばんごう",
+        "eng" : "banngou",
+        "mean" : "번호"
+    },
+    {
+        "id" : "571",
+        "value" : "晩御飯",
+        "pron" : "ばんごはん",
+        "eng" : "banngohann",
+        "mean" : "저녁밥"
+    },
+    {
+        "id" : "572",
+        "value" : "東",
+        "pron" : "ひがし",
+        "eng" : "higasi",
+        "mean" : "동쪽"
+    },
+    {
+        "id" : "573",
+        "value" : "低い",
+        "pron" : "ひくい",
+        "eng" : "hikui",
+        "mean" : "낮다"
+    },
+    {
+        "id" : "574",
+        "value" : "飛行機",
+        "pron" : "ひこうき",
+        "eng" : "hikouki",
+        "mean" : "비행기"
+    },
+    {
+        "id" : "575",
+        "value" : "人",
+        "pron" : "ひと",
+        "eng" : "hito",
+        "mean" : "사람"
+    },
+    {
+        "id" : "576",
+        "value" : "一つ",
+        "pron" : "ひとつ",
+        "eng" : "hitotu",
+        "mean" : "하나"
+    },
+    {
+        "id" : "577",
+        "value" : "一人",
+        "pron" : "ひとり",
+        "eng" : "hitori",
+        "mean" : "한 사람"
+    },
+    {
+        "id" : "578",
+        "value" : "暇",
+        "pron" : "ひま",
+        "eng" : "hima",
+        "mean" : "빈 시간"
+    },
+    {
+        "id" : "579",
+        "value" : "春",
+        "pron" : "はる",
+        "eng" : "hiru",
+        "mean" : "봄"
+    },
+    {
+        "id" : "580",
+        "value" : "百",
+        "pron" : "ひゃく",
+        "eng" : "hyaku",
+        "mean" : "백"
+    },
+    {
+        "id" : "581",
+        "value" : "百点",
+        "pron" : "ひゃくてん",
+        "eng" : "hyakutenn",
+        "mean" : "백점"
+    },
+    {
+        "id" : "582",
+        "value" : "昼",
+        "pron" : "ひる",
+        "eng" : "hiru",
+        "mean" : "낮"
+    },
+    {
+        "id" : "583",
+        "value" : "昼御飯",
+        "pron" : "ひるごはん",
+        "eng" : "hirugohann",
+        "mean" : "점심"
+    },
+    {
+        "id" : "584",
+        "value" : "広い",
+        "pron" : "ひろい",
+        "eng" : "hiroi",
+        "mean" : "넓다"
+    },
+    {
+        "id" : "585",
+        "value" : "病院",
+        "pron" : "びょういん",
+        "eng" : "byouinn",
+        "mean" : "병원"
+    },
+    {
+        "id" : "586",
+        "value" : "病気",
+        "pron" : "びょうき",
+        "eng" : "byouki",
+        "mean" : "병"
+    },
+    {
+        "id" : "587",
+        "value" : "服",
+        "pron" : "ふく",
+        "eng" : "huku",
+        "mean" : "옷"
+    },
+    {
+        "id" : "588",
+        "value" : "二つ",
+        "pron" : "ふたつ",
+        "eng" : "hutatu",
+        "mean" : "두 개"
+    },
+    {
+        "id" : "589",
+        "value" : "二人",
+        "pron" : "ふたり",
+        "eng" : "hutari",
+        "mean" : "두명"
+    },
+    {
+        "id" : "590",
+        "value" : "二日",
+        "pron" : "ふつか",
+        "eng" : "hutuka",
+        "mean" : "이틀"
+    },
+    {
+        "id" : "591",
+        "value" : "冬",
+        "pron" : "ふゆ",
+        "eng" : "huyu",
+        "mean" : "겨울"
+    },
+    {
+        "id" : "592",
+        "value" : "降る",
+        "pron" : "ふる",
+        "eng" : "huru",
+        "mean" : "내리다"
+    },
+    {
+        "id" : "593",
+        "value" : "古い",
+        "pron" : "ふるい",
+        "eng" : "hurui",
+        "mean" : "오래된"
+    },
+    {
+        "id" : "594",
+        "value" : "旧い",
+        "pron" : "ふるい",
+        "eng" : "hurui",
+        "mean" : "오래된"
+    },
+    {
+        "id" : "595",
+        "value" : "部屋",
+        "pron" : "へや",
+        "eng" : "heya",
+        "mean" : "방"
+    },
+    {
+        "id" : "596",
+        "value" : "勉強",
+        "pron" : "べんきょう",
+        "eng" : "bennkyou",
+        "mean" : "공부"
+    },
+    {
+        "id" : "597",
+        "value" : "便利",
+        "pron" : "べんり",
+        "eng" : "bennri",
+        "mean" : "편리"
+    },
+    {
+        "id" : "598",
+        "value" : "方",
+        "pron" : "ほう",
+        "eng" : "hou",
+        "mean" : "-쪽"
+    },
+    {
+        "id" : "599",
+        "value" : "外",
+        "pron" : "ほか",
+        "eng" : "hoka",
+        "mean" : "다른 것"
+    },
+    {
+        "id" : "600",
+        "value" : "他",
+        "pron" : "ほか",
+        "eng" : "hoka",
+        "mean" : "다른 것"
+    },
+    {
+        "id" : "601",
+        "value" : "本",
+        "pron" : "ほん",
+        "eng" : "honn",
+        "mean" : "책"
+    },
+    {
+        "id" : "602",
+        "value" : "毎朝",
+        "pron" : "まいあさ",
+        "eng" : "maiasa",
+        "mean" : "매일 아침"
+    },
+    {
+        "id" : "603",
+        "value" : "毎月",
+        "pron" : "まいげつ",
+        "eng" : "maigetu",
+        "mean" : "매월"
+    },
+    {
+        "id" : "604",
+        "value" : "毎週",
+        "pron" : "まいしゅう",
+        "eng" : "maisyuu",
+        "mean" : "매주"
+    },
+    {
+        "id" : "605",
+        "value" : "毎日",
+        "pron" : "まいにち",
+        "eng" : "mainiti",
+        "mean" : "매일"
+    },
+    {
+        "id" : "606",
+        "value" : "毎年",
+        "pron" : "まいねん",
+        "eng" : "mainenn",
+        "mean" : "매년"
+    },
+    {
+        "id" : "607",
+        "value" : "毎晩",
+        "pron" : "まいばん",
+        "eng" : "maibann",
+        "mean" : "매일 밤"
+    },
+    {
+        "id" : "608",
+        "value" : "前",
+        "pron" : "まえ",
+        "eng" : "mae",
+        "mean" : "앞"
+    },
+    {
+        "id" : "609",
+        "value" : "曲がる",
+        "pron" : "まがる",
+        "eng" : "magaru",
+        "mean" : "구부러지다"
+    },
+    {
+        "id" : "610",
+        "value" : "不味い",
+        "pron" : "まずい",
+        "eng" : "mazui",
+        "mean" : "맛 없다"
+    },
+    {
+        "id" : "611",
+        "value" : "又",
+        "pron" : "また",
+        "eng" : "mata",
+        "mean" : "다음에"
+    },
+    {
+        "id" : "612",
+        "value" : "復",
+        "pron" : "また",
+        "eng" : "mata",
+        "mean" : "다음에"
+    },
+    {
+        "id" : "613",
+        "value" : "亦",
+        "pron" : "また",
+        "eng" : "mata",
+        "mean" : "다음에"
+    },
+    {
+        "id" : "614",
+        "value" : "未だ",
+        "pron" : "まだ",
+        "eng" : "mada",
+        "mean" : "아직"
+    },
+    {
+        "id" : "615",
+        "value" : "町",
+        "pron" : "まち",
+        "eng" : "mati",
+        "mean" : "동네"
+    },
+    {
+        "id" : "616",
+        "value" : "真っ直ぐ",
+        "pron" : "まっすぐ",
+        "eng" : "massugu",
+        "mean" : "쭉 바로"
+    },
+    {
+        "id" : "617",
+        "value" : "待つ",
+        "pron" : "まつ",
+        "eng" : "matu",
+        "mean" : "기다리다"
+    },
+    {
+        "id" : "618",
+        "value" : "窓",
+        "pron" : "まど",
+        "eng" : "mado",
+        "mean" : "창문"
+    },
+    {
+        "id" : "619",
+        "value" : "丸い",
+        "pron" : "まるい",
+        "eng" : "marui",
+        "mean" : "둥글다"
+    },
+    {
+        "id" : "620",
+        "value" : "磨く",
+        "pron" : "みがく",
+        "eng" : "migaku",
+        "mean" : "닦다"
+    },
+    {
+        "id" : "621",
+        "value" : "研く",
+        "pron" : "みがく",
+        "eng" : "migaku",
+        "mean" : "닦다"
+    },
+    {
+        "id" : "622",
+        "value" : "右",
+        "pron" : "みぎ",
+        "eng" : "migi",
+        "mean" : "오른쪽"
+    },
+    {
+        "id" : "623",
+        "value" : "短い",
+        "pron" : "みじかい",
+        "eng" : "mizikai",
+        "mean" : "짧다"
+    },
+    {
+        "id" : "624",
+        "value" : "水",
+        "pron" : "みず",
+        "eng" : "mizu",
+        "mean" : "물"
+    },
+    {
+        "id" : "625",
+        "value" : "店",
+        "pron" : "みせ",
+        "eng" : "mise",
+        "mean" : "가게"
+    },
+    {
+        "id" : "626",
+        "value" : "見せる",
+        "pron" : "みせる",
+        "eng" : "miseru",
+        "mean" : "보여주다"
+    },
+    {
+        "id" : "627",
+        "value" : "道",
+        "pron" : "みち",
+        "eng" : "miti",
+        "mean" : "길, 도로"
+    },
+    {
+        "id" : "628",
+        "value" : "路",
+        "pron" : "みち",
+        "eng" : "miti",
+        "mean" : "길, 도로"
+    },
+    {
+        "id" : "629",
+        "value" : "三日",
+        "pron" : "みっか",
+        "eng" : "mikka",
+        "mean" : "사흘"
+    },
+    {
+        "id" : "630",
+        "value" : "三つ",
+        "pron" : "みっつ",
+        "eng" : "mittu",
+        "mean" : "3개"
+    },
+    {
+        "id" : "631",
+        "value" : "緑",
+        "pron" : "みどり",
+        "eng" : "midori",
+        "mean" : "초록"
+    },
+    {
+        "id" : "632",
+        "value" : "皆さん",
+        "pron" : "みなさん",
+        "eng" : "minasann",
+        "mean" : "모두들"
+    },
+    {
+        "id" : "633",
+        "value" : "南",
+        "pron" : "みなみ",
+        "eng" : "minami",
+        "mean" : "남쪽"
+    },
+    {
+        "id" : "634",
+        "value" : "耳",
+        "pron" : "みみ",
+        "eng" : "mimi",
+        "mean" : "귀"
+    },
+    {
+        "id" : "635",
+        "value" : "見る",
+        "pron" : "みる",
+        "eng" : "miru",
+        "mean" : "보다"
+    },
+    {
+        "id" : "636",
+        "value" : "皆",
+        "pron" : "みんな",
+        "eng" : "minnna",
+        "mean" : "모두들"
+    },
+    {
+        "id" : "637",
+        "value" : "六日",
+        "pron" : "むい",
+        "eng" : "muika",
+        "mean" : "6일"
+    },
+    {
+        "id" : "638",
+        "value" : "難しい",
+        "pron" : "むずかしい",
+        "eng" : "muzukasii",
+        "mean" : "어렵다"
+    },
+    {
+        "id" : "639",
+        "value" : "目",
+        "pron" : "め",
+        "eng" : "me",
+        "mean" : "눈"
+    },
+    {
+        "id" : "640",
+        "value" : "眼鏡",
+        "pron" : "めがね",
+        "eng" : "megane",
+        "mean" : "안경"
+    },
+    {
+        "id" : "641",
+        "value" : "もう一度",
+        "pron" : "もういちど",
+        "eng" : "mouitido",
+        "mean" : "한번 더"
+    },
+    {
+        "id" : "642",
+        "value" : "木曜日",
+        "pron" : "もくようび",
+        "eng" : "mokuyoubi",
+        "mean" : "목요일"
+    },
+    {
+        "id" : "643",
+        "value" : "もしもし",
+        "pron" : "もしもし",
+        "eng" : "mosimosi",
+        "mean" : "여보세요"
+    },
+    {
+        "id" : "644",
+        "value" : "もっと",
+        "pron" : "もっと",
+        "eng" : "motto",
+        "mean" : "좀 더"
+    },
+    {
+        "id" : "645",
+        "value" : "持つ",
+        "pron" : "もつ",
+        "eng" : "motu",
+        "mean" : "들고있다"
+    },
+    {
+        "id" : "646",
+        "value" : "物",
+        "pron" : "もの",
+        "eng" : "mono",
+        "mean" : "물건"
+    },
+    {
+        "id" : "647",
+        "value" : "門",
+        "pron" : "もん",
+        "eng" : "monn",
+        "mean" : "문"
+    },
+    {
+        "id" : "648",
+        "value" : "問題",
+        "pron" : "もんだい",
+        "eng" : "monndai",
+        "mean" : "문제"
+    },
+    {
+        "id" : "649",
+        "value" : "八百屋",
+        "pron" : "やおや",
+        "eng" : "yaoya",
+        "mean" : "채소가게"
+    },
+    {
+        "id" : "650",
+        "value" : "野菜",
+        "pron" : "やさい",
+        "eng" : "yasai",
+        "mean" : "채소"
+    },
+    {
+        "id" : "651",
+        "value" : "安い",
+        "pron" : "やすい",
+        "eng" : "yasui",
+        "mean" : "싸다"
+    },
+    {
+        "id" : "652",
+        "value" : "休み",
+        "pron" : "やすみ",
+        "eng" : "yasumi",
+        "mean" : "쉼, 방학"
+    },
+    {
+        "id" : "653",
+        "value" : "休む",
+        "pron" : "やすむ",
+        "eng" : "yasumu",
+        "mean" : "쉬다"
+    },
+    {
+        "id" : "654",
+        "value" : "山",
+        "pron" : "やま",
+        "eng" : "yama",
+        "mean" : "산"
+    },
+    {
+        "id" : "655",
+        "value" : "夕方",
+        "pron" : "ゆうがた",
+        "eng" : "yuugata",
+        "mean" : "해질녘"
+    },
+    {
+        "id" : "656",
+        "value" : "夕飯",
+        "pron" : "ゆうはん",
+        "eng" : "yuuhann",
+        "mean" : "저녁밥"
+    },
+    {
+        "id" : "657",
+        "value" : "雪",
+        "pron" : "ゆき",
+        "eng" : "yuki",
+        "mean" : "눈"
+    },
+    {
+        "id" : "658",
+        "value" : "ゆっくり",
+        "pron" : "ゆっくり",
+        "eng" : "yukkuri",
+        "mean" : "천천히"
+    },
+    {
+        "id" : "659",
+        "value" : "良い",
+        "pron" : "よい",
+        "eng" : "yoi",
+        "mean" : "좋아"
+    },
+    {
+        "id" : "660",
+        "value" : "善い",
+        "pron" : "よい",
+        "eng" : "yoi",
+        "mean" : "좋아"
+    },
+    {
+        "id" : "661",
+        "value" : "好い",
+        "pron" : "よい",
+        "eng" : "yoi",
+        "mean" : "좋아"
+    },
+    {
+        "id" : "662",
+        "value" : "八日",
+        "pron" : "ようか",
+        "eng" : "youka",
+        "mean" : "8일간"
+    },
+    {
+        "id" : "663",
+        "value" : "洋服",
+        "pron" : "ようふく",
+        "eng" : "youhuku",
+        "mean" : "양복"
+    },
+    {
+        "id" : "664",
+        "value" : "四円",
+        "pron" : "よえん",
+        "eng" : "yoenn",
+        "mean" : "4엔"
+    },
+    {
+        "id" : "665",
+        "value" : "横",
+        "pron" : "よこ",
+        "eng" : "yoko",
+        "mean" : "옆"
+    },
+    {
+        "id" : "666",
+        "value" : "四時",
+        "pron" : "よじ",
+        "eng" : "yozi",
+        "mean" : "4시"
+    },
+    {
+        "id" : "667",
+        "value" : "四日",
+        "pron" : "よっか",
+        "eng" : "yokka",
+        "mean" : "4일"
+    },
+    {
+        "id" : "668",
+        "value" : "四つ",
+        "pron" : "よっつ",
+        "eng" : "yottu",
+        "mean" : "4개"
+    },
+    {
+        "id" : "669",
+        "value" : "四人",
+        "pron" : "よにん",
+        "eng" : "yoninn",
+        "mean" : "4명"
+    },
+    {
+        "id" : "670",
+        "value" : "四年",
+        "pron" : "よねん",
+        "eng" : "yonenn",
+        "mean" : "4년"
+    },
+    {
+        "id" : "671",
+        "value" : "呼ぶ",
+        "pron" : "よぶ",
+        "eng" : "yobu",
+        "mean" : "부르다"
+    },
+    {
+        "id" : "672",
+        "value" : "読む",
+        "pron" : "よむ",
+        "eng" : "yomu",
+        "mean" : "읽다"
+    },
+    {
+        "id" : "673",
+        "value" : "夜",
+        "pron" : "よる",
+        "eng" : "yoru",
+        "mean" : "밤"
+    },
+    {
+        "id" : "674",
+        "value" : "弱い",
+        "pron" : "よわい",
+        "eng" : "yowai",
+        "mean" : "약하다"
+    },
+    {
+        "id" : "675",
+        "value" : "四階",
+        "pron" : "よんかい",
+        "eng" : "yonnkai",
+        "mean" : "4층"
+    },
+    {
+        "id" : "676",
+        "value" : "四回",
+        "pron" : "よんかい",
+        "eng" : "yonnkai",
+        "mean" : "4회"
+    },
+    {
+        "id" : "677",
+        "value" : "四個",
+        "pron" : "よんこ",
+        "eng" : "yonnko",
+        "mean" : "4개"
+    },
+    {
+        "id" : "678",
+        "value" : "四杯",
+        "pron" : "よんはい",
+        "eng" : "yonnhai",
+        "mean" : "네 잔"
+    },
+    {
+        "id" : "679",
+        "value" : "四倍",
+        "pron" : "よんばい",
+        "eng" : "yonnbai",
+        "mean" : "4배"
+    },
+    {
+        "id" : "680",
+        "value" : "四番",
+        "pron" : "よんばん",
+        "eng" : "yonnbann",
+        "mean" : "4번"
+    },
+    {
+        "id" : "681",
+        "value" : "四匹",
+        "pron" : "よんひき",
+        "eng" : "yonnhiki",
+        "mean" : "4마리"
+    },
+    {
+        "id" : "682",
+        "value" : "四分",
+        "pron" : "よんぷん",
+        "eng" : "yonnpunn",
+        "mean" : "4분"
+    },
+    {
+        "id" : "683",
+        "value" : "四本",
+        "pron" : "よんほん",
+        "eng" : "yonnhonn",
+        "mean" : "4자루"
+    },
+    {
+        "id" : "684",
+        "value" : "四枚",
+        "pron" : "よんまい",
+        "eng" : "yonnmai",
+        "mean" : "4장"
+    },
+    {
+        "id" : "685",
+        "value" : "来月",
+        "pron" : "らいげつ",
+        "eng" : "raigetu",
+        "mean" : "다음 달"
+    },
+    {
+        "id" : "686",
+        "value" : "来週",
+        "pron" : "らいしゅう",
+        "eng" : "raisyuu",
+        "mean" : "다음 주"
+    },
+    {
+        "id" : "687",
+        "value" : "来年",
+        "pron" : "らいねん",
+        "eng" : "rainenn",
+        "mean" : "내년"
+    },
+    {
+        "id" : "688",
+        "value" : "留学生",
+        "pron" : "りゅうがくせい",
+        "eng" : "ryuugakusei",
+        "mean" : "유학생"
+    },
+    {
+        "id" : "689",
+        "value" : "料理",
+        "pron" : "りょうり",
+        "eng" : "youri",
+        "mean" : "요리"
+    },
+    {
+        "id" : "690",
+        "value" : "六",
+        "pron" : "ろく",
+        "eng" : "roku",
+        "mean" : "여섯"
+    },
+    {
+        "id" : "691",
+        "value" : "六円",
+        "pron" : "ろくえん",
+        "eng" : "rokuenn",
+        "mean" : "6엔"
+    },
+    {
+        "id" : "692",
+        "value" : "六月",
+        "pron" : "ろくがつ",
+        "eng" : "rokugatu",
+        "mean" : "6월"
+    },
+    {
+        "id" : "693",
+        "value" : "六時",
+        "pron" : "ろくじ",
+        "eng" : "rokuzi",
+        "mean" : "여섯 시"
+    },
+    {
+        "id" : "694",
+        "value" : "六人",
+        "pron" : "ろくにん",
+        "eng" : "rokuninn",
+        "mean" : "6명"
+    },
+    {
+        "id" : "695",
+        "value" : "六年",
+        "pron" : "ろくねん",
+        "eng" : "rokunenn",
+        "mean" : "6년"
+    },
+    {
+        "id" : "696",
+        "value" : "六倍",
+        "pron" : "ろくばい",
+        "eng" : "rokubai",
+        "mean" : "6배"
+    },
+    {
+        "id" : "697",
+        "value" : "六番",
+        "pron" : "ろくばん",
+        "eng" : "rokubann",
+        "mean" : "6번"
+    },
+    {
+        "id" : "698",
+        "value" : "六枚",
+        "pron" : "ろくまい",
+        "eng" : "rokumai",
+        "mean" : "6장"
+    },
+    {
+        "id" : "699",
+        "value" : "六階",
+        "pron" : "ろっかい",
+        "eng" : "rokkai",
+        "mean" : "6층"
+    },
+    {
+        "id" : "700",
+        "value" : "六回",
+        "pron" : "ろっかい",
+        "eng" : "rokkai",
+        "mean" : "6회"
+    },
+    {
+        "id" : "701",
+        "value" : "六個",
+        "pron" : "ろっこ",
+        "eng" : "rokko",
+        "mean" : "6개"
+    },
+    {
+        "id" : "702",
+        "value" : "六杯",
+        "pron" : "ろっぱい",
+        "eng" : "roppai",
+        "mean" : "여섯 잔"
+    },
+    {
+        "id" : "703",
+        "value" : "六匹",
+        "pron" : "ろっぴき",
+        "eng" : "roppiki",
+        "mean" : "6마리"
+    },
+    {
+        "id" : "704",
+        "value" : "六分",
+        "pron" : "ろっぷん",
+        "eng" : "roppunn",
+        "mean" : "6분"
+    },
+    {
+        "id" : "705",
+        "value" : "六本",
+        "pron" : "ろっぽん",
+        "eng" : "ropponn",
+        "mean" : "6자루"
+    },
+    {
+        "id" : "705",
+        "value" : "分かる",
+        "pron" : "わかる",
+        "eng" : "wakaru",
+        "mean" : "알다"
+    },
+    {
+        "id" : "706",
+        "value" : "私",
+        "pron" : "わたし",
+        "eng" : "watasi",
+        "mean" : "나"
+    },
+    {
+        "id" : "707",
+        "value" : "悪い",
+        "pron" : "わるい",
+        "eng" : "warui",
+        "mean" : "나쁘다"
+    },
+    {
+        "id" : "708",
+        "value" : "アパート",
+        "pron" : "アパート",
+        "eng" : "apa-to",
+        "mean" : "아파트"
+    },
+    {
+        "id" : "709",
+        "value" : "エレベーター",
+        "pron" : "エレベーター",
+        "eng" : "erebe-ta-",
+        "mean" : "엘리베이터"
+    },
+    {
+        "id" : "710",
+        "value" : "カップ",
+        "pron" : "カップ",
+        "eng" : "kappu",
+        "mean" : "컵"
+    },
+    {
+        "id" : "711",
+        "value" : "カメラ",
+        "pron" : "カメラ",
+        "eng" : "kamera",
+        "mean" : "카메라"
+    },
+    {
+        "id" : "712",
+        "value" : "カレンダー",
+        "pron" : "カレンダー",
+        "eng" : "karennda-",
+        "mean" : "달력"
+    },
+    {
+        "id" : "713",
+        "value" : "ギター",
+        "pron" : "ギター",
+        "eng" : "gida-",
+        "mean" : "기타"
+    },
+    {
+        "id" : "714",
+        "value" : "クラス",
+        "pron" : "クラス",
+        "eng" : "kurasu",
+        "mean" : "클래스"
+    },
+    {
+        "id" : "715",
+        "value" : "グラス",
+        "pron" : "グラス",
+        "eng" : "gurasu",
+        "mean" : "유리컵"
+    },
+    {
+        "id" : "716",
+        "value" : "コップ",
+        "pron" : "コップ",
+        "eng" : "koppu",
+        "mean" : "컵"
+    },
+    {
+        "id" : "717",
+        "value" : "コピー",
+        "pron" : "コピー",
+        "eng" : "kopi-",
+        "mean" : "커피"
+    },
+    {
+        "id" : "718",
+        "value" : "コート",
+        "pron" : "コート",
+        "eng" : "ko-to",
+        "mean" : "코트"
+    },
+    {
+        "id" : "719",
+        "value" : "コーヒー",
+        "pron" : "コーヒー",
+        "eng" : "ko-hi-",
+        "mean" : "커피"
+    },
+    {
+        "id" : "719",
+        "value" : "シャツ",
+        "pron" : "シャツ",
+        "eng" : "syatu",
+        "mean" : "셔츠"
+    },
+    {
+        "id" : "720",
+        "value" : "シャワー",
+        "pron" : "シャワー",
+        "eng" : "syawa-",
+        "mean" : "샤워"
+    },
+    {
+        "id" : "721",
+        "value" : "スカート",
+        "pron" : "スカート",
+        "eng" : "suka-to",
+        "mean" : "치마"
+    },
+    {
+        "id" : "722",
+        "value" : "ストーブ",
+        "pron" : "ストーブ",
+        "eng" : "suto-bu",
+        "mean" : "난로"
+    },
+    {
+        "id" : "723",
+        "value" : "スプーン",
+        "pron" : "スプーン",
+        "eng" : "supu-nn",
+        "mean" : "숟가락"
+    },
+    {
+        "id" : "724",
+        "value" : "スポーツ",
+        "pron" : "スポーツ",
+        "eng" : "supo-tu",
+        "mean" : "스포츠"
+    },
+    {
+        "id" : "725",
+        "value" : "ズボン",
+        "pron" : "ズボン",
+        "eng" : "zubonn",
+        "mean" : "바지"
+    },
+    {
+        "id" : "726",
+        "value" : "セーター",
+        "pron" : "セーター",
+        "eng" : "se-ta-",
+        "mean" : "스웨터"
+    },
+    {
+        "id" : "727",
+        "value" : "ゼロ",
+        "pron" : "ゼロ",
+        "eng" : "zero",
+        "mean" : "제로"
+    },
+    {
+        "id" : "728",
+        "value" : "タクシー",
+        "pron" : "タクシー",
+        "eng" : "takusi-",
+        "mean" : "택시"
+    },
+    {
+        "id" : "729",
+        "value" : "タバコ",
+        "pron" : "タバコ",
+        "eng" : "tabako",
+        "mean" : "담배"
+    },
+    {
+        "id" : "730",
+        "value" : "テスト",
+        "pron" : "テスト",
+        "eng" : "tesuto",
+        "mean" : "시험"
+    },
+    {
+        "id" : "731",
+        "value" : "テレビ",
+        "pron" : "テレビ",
+        "eng" : "terebi",
+        "mean" : "텔레비전"
+    },
+    {
+        "id" : "732",
+        "value" : "テーブル",
+        "pron" : "テーブル",
+        "eng" : "te-buru",
+        "mean" : "테이블"
+    },
+    {
+        "id" : "733",
+        "value" : "テープ",
+        "pron" : "テープ",
+        "eng" : "te-pu-",
+        "mean" : "테이블"
+    },
+    {
+        "id" : "734",
+        "value" : "デパート",
+        "pron" : "デパート",
+        "eng" : "depa-to",
+        "mean" : "백화점"
+    },
+    {
+        "id" : "735",
+        "value" : "トイレ",
+        "pron" : "トイレ",
+        "eng" : "toire",
+        "mean" : "화장실"
+    },
+    {
+        "id" : "736",
+        "value" : "ドア",
+        "pron" : "ドア",
+        "eng" : "doa",
+        "mean" : "문"
+    },
+    {
+        "id" : "736",
+        "value" : "ナイフ",
+        "pron" : "ナイフ",
+        "eng" : "naihu",
+        "mean" : "나이프"
+    },
+    {
+        "id" : "737",
+        "value" : "ネクタイ",
+        "pron" : "ネクタイ",
+        "eng" : "nekutai",
+        "mean" : "넥타이"
+    },
+    {
+        "id" : "738",
+        "value" : "ノート",
+        "pron" : "ノート",
+        "eng" : "no-to",
+        "mean" : "노트"
+    },
+    {
+        "id" : "739",
+        "value" : "ハンカチ",
+        "pron" : "ハンカチ",
+        "eng" : "hannkati",
+        "mean" : "손수건"
+    },
+    {
+        "id" : "740",
+        "value" : "バス",
+        "pron" : "バス",
+        "eng" : "basu",
+        "mean" : "버스"
+    },
+    {
+        "id" : "741",
+        "value" : "パン",
+        "pron" : "パン",
+        "eng" : "pann",
+        "mean" : "빵"
+    },
+    {
+        "id" : "742",
+        "value" : "ペン",
+        "pron" : "ペン",
+        "eng" : "penn",
+        "mean" : "펜"
+    },
+    {
+        "id" : "743",
+        "value" : "ホテル",
+        "pron" : "ホテル",
+        "eng" : "hoteru",
+        "mean" : "호텔"
+    },
+    {
+        "id" : "744",
+        "value" : "ボタン",
+        "pron" : "ボタン",
+        "eng" : "botann",
+        "mean" : "버튼"
+    },
+    {
+        "id" : "745",
+        "value" : "ボールペン",
+        "pron" : "ボールペン",
+        "eng" : "bo-rupenn",
+        "mean" : "볼펜"
+    },
+    {
+        "id" : "746",
+        "value" : "ポケット",
+        "pron" : "ポケット",
+        "eng" : "poketto",
+        "mean" : "포켓"
+    },
+    {
+        "id" : "747",
+        "value" : "ラジオ",
+        "pron" : "ラジオ",
+        "eng" : "razio",
+        "mean" : "라디오"
+    },
+    {
+        "id" : "748",
+        "value" : "レストラン",
+        "pron" : "レストラン",
+        "eng" : "resutorann",
+        "mean" : "레스토랑"
+    }
+]

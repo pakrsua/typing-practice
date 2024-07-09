@@ -1,0 +1,12 @@
+/* @import 'page/page.css' */
+
+@import 'page/main.css';
+@import 'page/keyboard.css';
+@import 'page/textbox.css';
+@import 'page/menu.css';
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}

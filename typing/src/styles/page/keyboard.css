@@ -1,0 +1,121 @@
+
+.bottom-box{
+
+}
+.keyboard-box{
+    text-align: center;
+    font-size: 0.75rem;
+    transform: translateY(0%);
+    transition-duration: 1s;
+}
+.keyboard-box-close{
+    text-align: center;
+    font-size: 0.75rem;
+    transform: translateY(300%);
+    transition-duration: 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+@keyframes fadeout{
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+
+.keyboard-handle{
+    bottom: 0;
+}
+.keyboard-handle-close{
+    bottom: 0;
+}
+
+/* .keyboard-handle{
+    padding: 5px;
+    background-color: #E2B714;
+    border-radius: 5px 5px 0px 0px;
+    margin: auto;
+    width: 100px;
+    justify-content: center;
+    
+} */
+.backspace{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 60px;
+    height: 30px;
+}
+.keyboard-box > div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.keyboard-box-close > div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* .keyboard-board{
+    animation : fadeout 2s;
+} */
+.n-key {
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+}
+.n-click {
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    background-color: #E2B714;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+}
+.tab{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 45px;
+    height: 30px;
+}
+.caps-lock{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 52px;
+    height: 30px;
+}
+.enter{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 72px;
+    height: 30px;
+}
+.shift{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 80px;
+    height: 30px;
+}
+.option{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 50px;
+    height: 30px;
+}
+.space{
+    padding: 2px;
+    border: solid 0.5px #E2B714;
+    border-radius: 2px;
+    width: 190px;
+    height: 30px;
+}
