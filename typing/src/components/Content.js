@@ -91,7 +91,7 @@ function Content(props) {
                 <div>{oNum}</div>
                 <TextBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></TextBox>
                 <TypeingBox setTextData={setTextData} setTypingWord={setTypingWord} textData={textData} startComposition={startComposition} endComposition={endComposition}></TypeingBox>
-                <KeyBoardBox textData={textData}></KeyBoardBox>
+                {/* <KeyBoardBox textData={textData}></KeyBoardBox> */}
             </div>
         </>
     );

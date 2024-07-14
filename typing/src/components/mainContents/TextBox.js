@@ -9,15 +9,25 @@ function TextBox(props) {
                     {props.sample[props.number].value}
                 </div> */}
                 <div>
-                    <div className="pron">
-                        {props.word[props.number].pron}
-                    </div>
+                    {
+                        props.yomigana ? 
+                        <div className="pron">
+                            {props.word[props.number].pron}
+                        </div> :
+                        <></>
+                    }
+
                     <div className="value">
                         {props.word[props.number].value}
                     </div>
-                    <div className="eng">
-                        {props.word[props.number].eng}
-                    </div>
+                    {
+                        props.alpabet ? 
+                        <div className="eng">
+                            {props.word[props.number].eng}
+                        </div> : 
+                        <></>
+                    }
+
                     <div className="mean ">
                         {props.word[props.number].mean}
                     </div>
@@ -32,15 +42,23 @@ function TextBox(props) {
                     {props.sample[props.number].value}
                 </div> */}
                 <div>
-                    <div className="pron">
-                        {props.word[0].pron}
-                    </div>
+                    {
+                        props.yomigana ? 
+                        <div className="pron">
+                            {props.word[0].pron}
+                        </div> :
+                        <></>
+                    }
                     <div className="value">
                         {props.word[0].value}
                     </div>
-                    <div className="eng">
-                        {props.word[0].eng}
-                    </div>
+                    {
+                        props.alpabet ? 
+                        <div className="eng">
+                            {props.word[0].eng}
+                        </div> : 
+                        <></>
+                    }
                     <div className="mean ">
                         {props.word[0].mean}
                     </div>

@@ -28,7 +28,17 @@ form{
 .text-menu-select{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
 }
 .menu-check-box input{
+    width: 20px;
+    height: 20px;
+    accent-color: #E2B714;
+}
 
+.menu-check-box input:checked~.menu-check-box{
+    background-color: #E2B714;
+    color: #E2B714;
 }
