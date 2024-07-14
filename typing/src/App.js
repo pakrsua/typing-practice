@@ -8,9 +8,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Main/>}></Route>
-          <Analytics></Analytics>
         </Routes>
       </BrowserRouter>
+      <Analytics></Analytics>
     </div>
   );
 }
