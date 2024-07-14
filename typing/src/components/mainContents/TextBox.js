@@ -1,37 +1,54 @@
 import { useEffect, useState } from "react";
 
 function TextBox(props) {
-    return ( 
-        <>
-            {/* <div className="text-box">
-                {props.sample[props.number].value}
-            </div> */}
-            <div className="textBox">
-                {
-                    props.yomigana ?
+
+    if(props.number < Object.keys(props.word).length){
+        return ( 
+            <>
+                {/* <div className="text-box">
+                    {props.sample[props.number].value}
+                </div> */}
+                <div>
                     <div className="pron">
-                    {props.jlpt_5[props.number].pron}
-                    </div> :
-                    <></>
-                }
-
-                <div className="value">
-                    {props.jlpt_5[props.number].value}
-                </div>
-                {
-                    props.alpabet ?
+                        {props.word[props.number].pron}
+                    </div>
+                    <div className="value">
+                        {props.word[props.number].value}
+                    </div>
                     <div className="eng">
-                    {props.jlpt_5[props.number].eng}
-                    </div> :
-                    <></>
-                }
-
-                <div className="mean">
-                    {props.jlpt_5[props.number].mean}
+                        {props.word[props.number].eng}
+                    </div>
+                    <div className="mean ">
+                        {props.word[props.number].mean}
+                    </div>
                 </div>
-            </div>
-        </>
-     );
+            </>
+         );
+    }
+    else{
+        return ( 
+            <>
+                {/* <div className="text-box">
+                    {props.sample[props.number].value}
+                </div> */}
+                <div>
+                    <div className="pron">
+                        {props.word[0].pron}
+                    </div>
+                    <div className="value">
+                        {props.word[0].value}
+                    </div>
+                    <div className="eng">
+                        {props.word[0].eng}
+                    </div>
+                    <div className="mean ">
+                        {props.word[0].mean}
+                    </div>
+                </div>
+            </>
+         );
+    }
+
 }
 
 export default TextBox;

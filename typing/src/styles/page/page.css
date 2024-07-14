@@ -33,13 +33,7 @@ body{
     border-radius: 0%;
     border-width: 5px;
 }
-.header-box{
-    background-color: #003F45;
-    margin: 0px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
+
 .content-box{
     background-color: #003F45;
     width: 50%;
