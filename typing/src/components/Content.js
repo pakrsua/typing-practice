@@ -47,11 +47,11 @@ function Content(props) {
         if(textData === 13){
             console.log("typing : ", typingWord)
             console.log("word : ", word[number].value)
-            if(typingWord === word[number].value){
+            if(word[number].value.includes(typingWord)){
                 setONum(oNum + 1)
             }
             setNumber(Math.floor(Math.random()*wordNum))
-            
+            // setNumber(21)
         }
     },[textData])
     
@@ -60,27 +60,22 @@ function Content(props) {
             setwordNum(747)
             setWord(jlpt_5)
             setNumber(Math.floor(Math.random()*wordNum))
-            console.log(number)
         }else if(level === 4){
             setwordNum(1036)
             setWord(jlpt_4)
             setNumber(Math.floor(Math.random()*wordNum))
-            console.log(number)
         }else if(level === 3){
             setwordNum(1545)
             setWord(jlpt_3)
             setNumber(Math.floor(Math.random()*wordNum))
-            console.log(number)
         }else if(level === 2){
             setwordNum(2498)
             setWord(jlpt_2)
             setNumber(Math.floor(Math.random()*wordNum))
-            console.log(number)
         }else{
             setwordNum(3244)
             setWord(jlpt_1)
             setNumber(Math.floor(Math.random()*wordNum))
-            console.log(number)
         }
     },[level])
 

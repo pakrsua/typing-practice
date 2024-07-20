@@ -5,8 +5,9 @@
     font-size: 1rem;
     color: gray;
 }
-.value{
-
+.value span{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .eng{
     color: gray;

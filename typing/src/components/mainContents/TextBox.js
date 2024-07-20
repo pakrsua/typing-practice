@@ -18,7 +18,9 @@ function TextBox(props) {
                     }
 
                     <div className="value">
-                        {props.word[props.number].value}
+                        {props.word[props.number].value.map((number,idx)=>(
+                            <span>{props.word[props.number].value[idx]}</span>
+                        ))}
                     </div>
                     {
                         props.alpabet ? 
