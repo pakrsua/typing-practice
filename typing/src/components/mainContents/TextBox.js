@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
-
 function TextBox(props) {
-
     if(props.number < Object.keys(props.word).length){
         return ( 
             <>
@@ -19,7 +16,7 @@ function TextBox(props) {
 
                     <div className="value">
                         {props.word[props.number].value.map((number,idx)=>(
-                            <span>{props.word[props.number].value[idx]}</span>
+                            <span key={idx}>{props.word[props.number].value[idx]}</span>
                         ))}
                     </div>
                     {

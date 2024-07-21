@@ -12,6 +12,9 @@ function MenuModal(props) {
     const alpabetHandle = () => {
         props.setAlpabet(!props.alpabet)
     }
+    const speakHandle = () => {
+        props.setWordSpeak(!props.wordSpeak)
+    }
     
     return ( 
         <>
@@ -27,9 +30,12 @@ function MenuModal(props) {
                     <div className="menu-check-box">
                         <form className="text-menu-select">
                             <span><input id="yomigana" type="checkbox" 
-                             onChange={yomiganaHandle}/>요미가나 숨기기</span><br></br>
+                             onChange={yomiganaHandle}/>요미가나 숨기기</span>
                             <span><input id="alpabet" type="checkbox" 
                              onChange={alpabetHandle}/>알파벳 가이드 숨기기</span>
+                             <span><input id="speak" type="checkbox"
+                             onChange={speakHandle}/>일본어 읽기</span>
+
                         </form>
                     </div>
                 </div>

@@ -24,6 +24,23 @@ function Content(props) {
     const [level, setLevel] = useState(5);
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
+    let voices = []
+    const setVoiceList = () =>{
+        voices = window.speechSynthesis.getVoices()
+    }
+    setVoiceList();
+
+    const speech = (txt) => {
+        const lang = "ja-JP";
+        const utterThis = new SpeechSynthesisUtterance(txt);
+    
+        utterThis.lang = lang;
+
+        utterThis.rate = 0.6
+    
+        // utterance를 재생(speak)한다.
+        window.speechSynthesis.speak(utterThis);
+      };
 
     const textClear = () => {
         inputRef.current.value = null;
@@ -45,8 +62,9 @@ function Content(props) {
 
     useEffect(()=>{
         if(textData === 13){
-            console.log("typing : ", typingWord)
-            console.log("word : ", word[number].value)
+            // console.log("pron: ",word[number].pron)
+            // console.log("typing : ", typingWord)
+            // console.log("word : ", word[number].value)
             if(word[number].value.includes(typingWord)){
                 setONum(oNum + 1)
             }
@@ -54,6 +72,13 @@ function Content(props) {
             // setNumber(21)
         }
     },[textData])
+
+    useEffect(()=>{
+        if(props.wordSpeak){
+            speech(word[number].pron)
+        }
+
+    },[number])
     
     useEffect(()=>{
         if(level === 5){
@@ -84,7 +109,7 @@ function Content(props) {
             <div className='content-box'>
                 <MenuBox setLevel={setLevel} level={level}></MenuBox>
                 <div>{oNum}</div>
-                <TextBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></TextBox>
+                <TextBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet} speech={speech}></TextBox>
                 <TypeingBox setTextData={setTextData} setTypingWord={setTypingWord} textData={textData} startComposition={startComposition} endComposition={endComposition}></TypeingBox>
                 {/* <KeyBoardBox textData={textData}></KeyBoardBox> */}
             </div>
