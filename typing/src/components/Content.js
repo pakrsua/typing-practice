@@ -25,22 +25,22 @@ function Content(props) {
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
     let voices = []
-    const setVoiceList = () =>{
-        voices = window.speechSynthesis.getVoices()
-    }
-    setVoiceList();
+    // const setVoiceList = () =>{
+    //     voices = window.speechSynthesis.getVoices()
+    // }
+    // setVoiceList();
 
-    const speech = (txt) => {
-        const lang = "ja-JP";
-        const utterThis = new SpeechSynthesisUtterance(txt);
+    // const speech = (txt) => {
+    //     const lang = "ja-JP";
+    //     const utterThis = new SpeechSynthesisUtterance(txt);
     
-        utterThis.lang = lang;
+    //     utterThis.lang = lang;
 
-        utterThis.rate = 0.6
+    //     utterThis.rate = 0.6
     
-        // utterance를 재생(speak)한다.
-        window.speechSynthesis.speak(utterThis);
-      };
+    //     // utterance를 재생(speak)한다.
+    //     window.speechSynthesis.speak(utterThis);
+    //   };
 
     const textClear = () => {
         inputRef.current.value = null;
@@ -109,7 +109,7 @@ function Content(props) {
             <div className='content-box'>
                 <MenuBox setLevel={setLevel} level={level}></MenuBox>
                 <div>{oNum}</div>
-                <TextBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet} speech={speech}></TextBox>
+                <TextBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></TextBox>
                 <TypeingBox setTextData={setTextData} setTypingWord={setTypingWord} textData={textData} startComposition={startComposition} endComposition={endComposition}></TypeingBox>
                 {/* <KeyBoardBox textData={textData}></KeyBoardBox> */}
             </div>
