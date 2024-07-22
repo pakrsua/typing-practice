@@ -73,12 +73,12 @@ function Content(props) {
         }
     },[textData])
 
-    useEffect(()=>{
-        if(props.wordSpeak){
-            speech(word[number].pron)
-        }
+    // useEffect(()=>{
+    //     if(props.wordSpeak){
+    //         speech(word[number].pron)
+    //     }
 
-    },[number])
+    // },[number])
     
     useEffect(()=>{
         if(level === 5){
