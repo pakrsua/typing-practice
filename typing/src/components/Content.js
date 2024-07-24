@@ -24,23 +24,25 @@ function Content(props) {
     const [level, setLevel] = useState(5);
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
-    let voices = []
+    // let voices = []
+    // let utterance = new SpeechSynthesisUtterance("Hello world!");
+    // speechSynthesis.speak(utterance);
     // const setVoiceList = () =>{
     //     voices = window.speechSynthesis.getVoices()
     // }
     // setVoiceList();
 
-    // const speech = (txt) => {
-    //     const lang = "ja-JP";
-    //     const utterThis = new SpeechSynthesisUtterance(txt);
+    const speech = (txt) => {
+        const lang = "ja-JP";
+        const utterThis = new SpeechSynthesisUtterance(txt);
     
-    //     utterThis.lang = lang;
+        utterThis.lang = lang;
 
-    //     utterThis.rate = 0.6
+        utterThis.rate = 0.6
     
-    //     // utterance를 재생(speak)한다.
-    //     window.speechSynthesis.speak(utterThis);
-    //   };
+        // utterance를 재생(speak)한다.
+        window.speechSynthesis.speak(utterThis);
+      };
 
     const textClear = () => {
         inputRef.current.value = null;
@@ -73,12 +75,18 @@ function Content(props) {
         }
     },[textData])
 
-    // useEffect(()=>{
-    //     if(props.wordSpeak){
-    //         speech(word[number].pron)
-    //     }
+    useEffect(()=>{
+        if(props.wordSpeak){
+            if(number < wordNum){
+                speech(word[number].pron)
+            }else{
+                speech(word[0].pron)
+            }
+            
+           
+        }
 
-    // },[number])
+    },[number])
     
     useEffect(()=>{
         if(level === 5){
