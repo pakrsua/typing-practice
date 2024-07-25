@@ -24,42 +24,23 @@ function Content(props) {
     const [level, setLevel] = useState(5);
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
-    let synth
-    let voice;
-    let attempts = 0;
-    // let voices = []
-    // let utterance = new SpeechSynthesisUtterance("Hello world!");
-    // speechSynthesis.speak(utterance);
+    let voices = []
     // const setVoiceList = () =>{
     //     voices = window.speechSynthesis.getVoices()
     // }
     // setVoiceList();
 
-    const speech = (txt) => {
-        const lang = "/ja-JP/";
-        const utterThis = new SpeechSynthesisUtterance(txt);
+    // const speech = (txt) => {
+    //     const lang = "ja-JP";
+    //     const utterThis = new SpeechSynthesisUtterance(txt);
     
-        // utterThis.lang = lang;
-        attempts++;
-        const voices = synth.getVoices();
-        if (voices.length) {
-          voice = voices.find(_voice => /ja-JP/.test(_voice.lang));
-        }
-        if (!voice) {
-          if (attempts < 10) {
-            setTimeout(() => {
-              speech();
-            }, 250);
-          } else {
-            console.error('`ja-JP` voice not found.');
-          }
-        }
+    //     utterThis.lang = lang;
 
-        utterThis.rate = 0.6
+    //     utterThis.rate = 0.6
     
-        // utterance를 재생(speak)한다.
-        window.speechSynthesis.speak(utterThis);
-      };
+    //     // utterance를 재생(speak)한다.
+    //     window.speechSynthesis.speak(utterThis);
+    //   };
 
     const textClear = () => {
         inputRef.current.value = null;
@@ -92,18 +73,12 @@ function Content(props) {
         }
     },[textData])
 
-    useEffect(()=>{
-        if(props.wordSpeak){
-            if(number < wordNum){
-                speech(word[number].pron)
-            }else{
-                speech(word[0].pron)
-            }
-            
-           
-        }
+    // useEffect(()=>{
+    //     if(props.wordSpeak){
+    //         speech(word[number].pron)
+    //     }
 
-    },[number])
+    // },[number])
     
     useEffect(()=>{
         if(level === 5){
