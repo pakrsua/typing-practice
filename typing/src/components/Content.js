@@ -56,15 +56,18 @@ function Content(props) {
     
 
     const speech = (txt) => {
-        const lang = "ja-JP";
-        const utterThis = new SpeechSynthesisUtterance(txt);
+        if(browserName === 'Google Chrome or Chromium'){
+            const lang = "ja-JP";
+            const utterThis = new SpeechSynthesisUtterance(txt);
+        
+            utterThis.lang = lang;
     
-        utterThis.lang = lang;
+            utterThis.rate = 0.7
+        
+            // utterance를 재생(speak)한다.
+            window.speechSynthesis.speak(utterThis);
+        }
 
-        utterThis.rate = 0.7
-    
-        // utterance를 재생(speak)한다.
-        window.speechSynthesis.speak(utterThis);
       };
 
     const textClear = () => {
@@ -100,7 +103,7 @@ function Content(props) {
     },[textData])
 
     useEffect(()=>{
-        if(browserName != 'unknown'){
+        if(browserName === 'Google Chrome or Chromium'){
             if(props.wordSpeak){
                 if(number > wordNum){
                     speech(word[0].pron)
