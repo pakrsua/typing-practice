@@ -24,6 +24,9 @@ function Content(props) {
     const [level, setLevel] = useState(5);
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
+    let synth
+    let voice;
+    let attempts = 0;
     // let voices = []
     // let utterance = new SpeechSynthesisUtterance("Hello world!");
     // speechSynthesis.speak(utterance);
@@ -33,10 +36,24 @@ function Content(props) {
     // setVoiceList();
 
     const speech = (txt) => {
-        const lang = "ja-JP";
+        const lang = "/ja-JP/";
         const utterThis = new SpeechSynthesisUtterance(txt);
     
-        utterThis.lang = lang;
+        // utterThis.lang = lang;
+        attempts++;
+        const voices = synth.getVoices();
+        if (voices.length) {
+          voice = voices.find(_voice => /ja-JP/.test(_voice.lang));
+        }
+        if (!voice) {
+          if (attempts < 10) {
+            setTimeout(() => {
+              speech();
+            }, 250);
+          } else {
+            console.error('`ja-JP` voice not found.');
+          }
+        }
 
         utterThis.rate = 0.6
     
