@@ -24,23 +24,48 @@ function Content(props) {
     const [level, setLevel] = useState(5);
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
-    let voices = []
-    // const setVoiceList = () =>{
-    //     voices = window.speechSynthesis.getVoices()
-    // }
-    // setVoiceList();
+    const browserName = getBrowserName(navigator.userAgent)
 
-    // const speech = (txt) => {
-    //     const lang = "ja-JP";
-    //     const utterThis = new SpeechSynthesisUtterance(txt);
-    
-    //     utterThis.lang = lang;
+    function getBrowserName(userAgent) {
+        if (userAgent.includes("Firefox")) {
+          // "Mozilla/5.0 (X11; Linux i686; rv:104.0) Gecko/20100101 Firefox/104.0"
+          return "Mozilla Firefox";
+        } else if (userAgent.includes("SamsungBrowser")) {
+          // "Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G955F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.4 Chrome/67.0.3396.87 Mobile Safari/537.36"
+          return "Samsung Internet";
+        } else if (userAgent.includes("Opera") || userAgent.includes("OPR")) {
+          // "Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36 OPR/90.0.4480.54"
+          return "Opera";
+        } else if (userAgent.includes("Edge")) {
+          // "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+          return "Microsoft Edge (Legacy)";
+        } else if (userAgent.includes("Edg")) {
+          // "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36 Edg/104.0.1293.70"
+          return "Microsoft Edge (Chromium)";
+        } else if (userAgent.includes("Chrome")) {
+          // "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+          return "Google Chrome or Chromium";
+        } else if (userAgent.includes("Safari")) {
+          // "Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Mobile/15E148 Safari/604.1"
+          return "Apple Safari";
+        } else {
+          return "unknown";
+        }
+      }
 
-    //     utterThis.rate = 0.6
     
-    //     // utterance를 재생(speak)한다.
-    //     window.speechSynthesis.speak(utterThis);
-    //   };
+
+    const speech = (txt) => {
+        const lang = "ja-JP";
+        const utterThis = new SpeechSynthesisUtterance(txt);
+    
+        utterThis.lang = lang;
+
+        utterThis.rate = 0.7
+    
+        // utterance를 재생(speak)한다.
+        window.speechSynthesis.speak(utterThis);
+      };
 
     const textClear = () => {
         inputRef.current.value = null;
@@ -61,24 +86,32 @@ function Content(props) {
     }
 
     useEffect(()=>{
-        if(textData === 13){
-            // console.log("pron: ",word[number].pron)
-            // console.log("typing : ", typingWord)
-            // console.log("word : ", word[number].value)
-            if(word[number].value.includes(typingWord)){
-                setONum(oNum + 1)
+        if(browserName != 'unknown'){
+            if(textData === 13){
+                // console.log("pron: ",word[number].pron)
+                // console.log("typing : ", typingWord)
+                // console.log("word : ", word[number].value)
+                if(word[number].value.includes(typingWord)){
+                    setONum(oNum + 1)
+                }
+                setNumber(Math.floor(Math.random()*wordNum))
+                // setNumber(21)
             }
-            setNumber(Math.floor(Math.random()*wordNum))
-            // setNumber(21)
         }
+
     },[textData])
 
-    // useEffect(()=>{
-    //     if(props.wordSpeak){
-    //         speech(word[number].pron)
-    //     }
-
-    // },[number])
+    useEffect(()=>{
+        if(props.wordSpeak){
+            if(number > wordNum){
+                speech(word[0].pron)
+                // console.log(word[0].pron)
+            }else{
+                speech(word[number].pron) 
+                // console.log(word[number].pron)
+            }
+        }
+    },[number])
     
     useEffect(()=>{
         if(level === 5){
