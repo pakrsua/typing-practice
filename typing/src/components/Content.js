@@ -86,31 +86,32 @@ function Content(props) {
     }
 
     useEffect(()=>{
-        if(browserName != 'unknown'){
-            if(textData === 13){
-                // console.log("pron: ",word[number].pron)
-                // console.log("typing : ", typingWord)
-                // console.log("word : ", word[number].value)
-                if(word[number].value.includes(typingWord)){
-                    setONum(oNum + 1)
-                }
-                setNumber(Math.floor(Math.random()*wordNum))
-                // setNumber(21)
+        if(textData === 13){
+            // console.log("pron: ",word[number].pron)
+            // console.log("typing : ", typingWord)
+            // console.log("word : ", word[number].value)
+            if(word[number].value.includes(typingWord)){
+                setONum(oNum + 1)
             }
+            setNumber(Math.floor(Math.random()*wordNum))
+            // setNumber(21)
         }
 
     },[textData])
 
     useEffect(()=>{
-        if(props.wordSpeak){
-            if(number > wordNum){
-                speech(word[0].pron)
-                // console.log(word[0].pron)
-            }else{
-                speech(word[number].pron) 
-                // console.log(word[number].pron)
+        if(browserName != 'unknown'){
+            if(props.wordSpeak){
+                if(number > wordNum){
+                    speech(word[0].pron)
+                    // console.log(word[0].pron)
+                }else{
+                    speech(word[number].pron) 
+                    console.log(word[number].pron)
+                }
             }
         }
+
     },[number])
     
     useEffect(()=>{
