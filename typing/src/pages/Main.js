@@ -12,6 +12,7 @@ function Main() {
     const [yomigana, setYomigana] = useState(true)
     const [alpabet, setAlpabet] = useState(true)
     const [wordSpeak, setWordSpeak] = useState(true)
+    let referer = null
 
     return ( 
         <div className='container'>
@@ -24,14 +25,16 @@ function Main() {
                 <Content
                     yomigana={yomigana} setYomigana={setYomigana}
                     alpabet={alpabet} setAlpabet={setAlpabet}
-                    wordSpeak={wordSpeak} setWordSpeak={setWordSpeak}>
+                    wordSpeak={wordSpeak} setWordSpeak={setWordSpeak}
+                    referer="web">
                 </Content>
             </BrowserView>
             <MobileView>
                 <ContentMobile
                     yomigana={yomigana} setYomigana={setYomigana}
                     alpabet={alpabet} setAlpabet={setAlpabet}
-                    wordSpeak={wordSpeak} setWordSpeak={setWordSpeak}>
+                    wordSpeak={wordSpeak} setWordSpeak={setWordSpeak}
+                    referer="mobile">
                 </ContentMobile>
             </MobileView>
 
