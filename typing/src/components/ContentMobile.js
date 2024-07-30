@@ -11,7 +11,7 @@ import KeyBoardBox from './mainContents/KeyBoardBox';
 import MenuModal from './mainContents/MenuModal';
 
 
-function Content(props) {
+function ContentMobile(props) {
     const [number, setNumber] = useState(0);
     const [wordNum, setwordNum] = useState(748);
     const [oNum, setONum] = useState(0);
@@ -25,19 +25,6 @@ function Content(props) {
     const [word, setWord] = useState(jlpt_5)
     const [typingWord, setTypingWord] = useState()
 
-
-    const speech = (txt) => {
-        const lang = "ja-JP";
-        const utterThis = new SpeechSynthesisUtterance(txt);
-    
-        utterThis.lang = lang;
-
-        utterThis.rate = 0.7
-    
-        // utterance를 재생(speak)한다.
-        window.speechSynthesis.speak(utterThis);
-
-      };
 
     const textClear = () => {
         inputRef.current.value = null;
@@ -71,18 +58,6 @@ function Content(props) {
 
     },[textData])
 
-    useEffect(()=>{
-        if(props.wordSpeak){
-            if(number > wordNum){
-                speech(word[0].pron)
-                // console.log(word[0].pron)
-            }else{
-                speech(word[number].pron) 
-                console.log(word[number].pron)
-            }
-        }
-
-    },[number])
     
     useEffect(()=>{
         if(level === 5){
@@ -121,4 +96,4 @@ function Content(props) {
     );
 }
 
-export default Content;
+export default ContentMobile;
