@@ -38,15 +38,23 @@ function MenuModal(props) {
                     </div>
                     <div className="menu-check-box">
                         <form className="text-menu-select">
-                            <span><input id="yomigana" type="checkbox" 
-                             onChange={yomiganaHandle}/>요미가나 숨기기</span>
-                            <span><input id="alpabet" type="checkbox" 
-                             onChange={alpabetHandle}/>알파벳 가이드 숨기기(준비중)</span>
-                             {browser==="web"?<span><input id="speak" type="checkbox"
-                             onChange={speakHandle}/>일본어 읽기</span>:
-                             <span><input id="speak" type="checkbox" disabled
-                             onChange={speakHandle}/>일본어 읽기</span>}
-                             
+                            <ol>
+                                <li><span><input id="yomigana" type="checkbox" 
+                                     onChange={yomiganaHandle}/><label for="yomigana">요미가나 숨기기</label></span>
+                                </li>
+                                <li>
+                                <span><input id="alpabet" type="checkbox" 
+                                    onChange={alpabetHandle}/><label for="alpabet">알파벳 가이드 숨기기(준비중)</label></span>
+                                </li>
+                                <li>
+                                {browser==="web"?<span><input id="speak" type="checkbox"
+                                    onChange={speakHandle}/><label for="speak">스피커 음소거</label></span>:
+                                    <span><input id="speak" type="checkbox" disabled
+                                     onChange={speakHandle}/><label for="speak">스피커 음소거</label></span>}
+                                </li>
+                            </ol>
+                            
+                            
 
                         </form>
                     </div>

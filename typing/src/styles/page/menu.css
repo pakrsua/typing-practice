@@ -16,11 +16,10 @@ form{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 90%;
-    max-width: 70%;
+    transform: translate(-50%, -50%); 
     background-color: white;
     color: black;
+    border-radius: 5%;
 }
 .menu-modal-close{
     display: none;
@@ -29,12 +28,14 @@ form{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     padding: 10px;
+    font-size: 1rem;
 }
+
 .menu-check-box input{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     accent-color: #E2B714;
 }
 
