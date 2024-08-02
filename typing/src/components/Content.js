@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import jlpt_5 from "../datas/jlpt_5.json"
+import jlpt_5 from "../datas/jlpt_5_updated.json"
 import jlpt_4 from "../datas/jlpt_4.json"
 import jlpt_3 from "../datas/jlpt_3.json"
 import jlpt_2 from "../datas/jlpt_2.json"
