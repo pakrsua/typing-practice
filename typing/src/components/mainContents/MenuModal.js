@@ -50,7 +50,8 @@ function MenuModal(props) {
                                 {browser==="web"?<span><input id="speak" type="checkbox"
                                     onChange={speakHandle}/><label for="speak">스피커 음소거</label></span>:
                                     <span><input id="speak" type="checkbox" disabled
-                                     onChange={speakHandle}/><label for="speak">스피커 음소거</label></span>}
+                                     onChange={speakHandle}/><label for="speak">스피커 음소거</label>
+                                     <div>모바일 환경에서는 지원하지 않습니다</div></span>}
                                 </li>
                             </ol>
                             

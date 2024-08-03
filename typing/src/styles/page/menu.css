@@ -39,6 +39,11 @@ form{
     accent-color: #E2B714;
 }
 
+.menu-check-box span  div{
+    font-size: 0.8rem;
+    color: red;
+}
+
 .menu-check-box input:checked~.menu-check-box{
     background-color: #E2B714;
     color: #E2B714;
