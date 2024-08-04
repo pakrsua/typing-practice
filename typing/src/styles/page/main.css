@@ -33,7 +33,7 @@ input{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    background-color: #E2B714;
+    background-color: #83c3d1;
 }
 .typing-box {
     margin: 5% 10%;
@@ -47,7 +47,7 @@ input{
 }
 .typing-box:focus{
     outline: none;
-    caret-color: #E2B714;
+    caret-color: #83c3d1;
 }
 
 .text-box{

@@ -43,7 +43,7 @@ function MenuModal(props) {
                                      onChange={yomiganaHandle}/><label for="yomigana">요미가나 숨기기</label></span>
                                 </li>
                                 <li>
-                                <span><input id="alpabet" type="checkbox" 
+                                <span><input id="alpabet" type="checkbox" disabled
                                     onChange={alpabetHandle}/><label for="alpabet">알파벳 가이드 숨기기(준비중)</label></span>
                                 </li>
                                 <li>

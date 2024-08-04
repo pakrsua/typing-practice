@@ -36,7 +36,7 @@ form{
 .menu-check-box input{
     width: 15px;
     height: 15px;
-    accent-color: #E2B714;
+    accent-color: #83c3d1;
 }
 
 .menu-check-box span  div{
@@ -45,6 +45,6 @@ form{
 }
 
 .menu-check-box input:checked~.menu-check-box{
-    background-color: #E2B714;
-    color: #E2B714;
+    background-color: #83c3d1;
+    color: #83c3d1;
 }

@@ -43,7 +43,7 @@
 } */
 .backspace{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 60px;
     height: 30px;
@@ -64,57 +64,57 @@
 } */
 .n-key {
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 30px;
     height: 30px;
 }
 .n-click {
     padding: 2px;
-    border: solid 0.5px #E2B714;
-    background-color: #E2B714;
+    border: solid 0.5px #83c3d1;
+    background-color: #83c3d1;
     border-radius: 2px;
     width: 30px;
     height: 30px;
 }
 .tab{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 45px;
     height: 30px;
 }
 .caps-lock{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 52px;
     height: 30px;
 }
 .enter{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 72px;
     height: 30px;
 }
 .shift{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 80px;
     height: 30px;
 }
 .option{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 50px;
     height: 30px;
 }
 .space{
     padding: 2px;
-    border: solid 0.5px #E2B714;
+    border: solid 0.5px #83c3d1;
     border-radius: 2px;
     width: 190px;
     height: 30px;
