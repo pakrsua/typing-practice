@@ -74,3 +74,21 @@ input{
     color: white;
     font-size: 1.25rem;
 }
+
+.mail-button{
+    position: fixed;
+    background-color: #83c3d1;
+    right: 5%;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+}
+.mail-button > div{
+    margin-top: 5px;
+}
+.mail-button:hover{
+    background-color: #003F45;
+}

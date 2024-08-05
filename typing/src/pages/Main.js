@@ -6,6 +6,7 @@ import ContentMobile from '../components/ContentMobile';
 import HeaderPage from '../components/HeaderPage';
 import MenuModal from '../components/mainContents/MenuModal';
 import { BrowserView, MobileView } from 'react-device-detect';
+import MailToMe from '../components/mainContents/MailToMe';
 
 function Main() {
     const [menu, setMenu] = useState(false)
@@ -37,6 +38,7 @@ function Main() {
                     referer="mobile">
                 </ContentMobile>
             </MobileView>
+            <MailToMe/>
 
         </div>
      );
