@@ -21,7 +21,7 @@ function MailToMe() {
             email : "tndk4997@naver.com",
             message : "sample"
         }
-        emailjs.send("service_0m0pxcp","template_6hogvdt",tmeplateParams,"yT4NqXc--HGx2KRzE")
+        emailjs.send("service_0m0pxcp","template_6hogvdt")
         .then((response) => {
             console.log("success",response.status, response.text)
             setFormData({name:'',email:'',message:''})
