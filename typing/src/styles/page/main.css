@@ -70,10 +70,13 @@ input{
 
 }
 
+
 .menus-clicked{
     color: white;
     font-size: 1.25rem;
 }
+
+/* 메일 */
 
 .mail-button{
     position: fixed;
@@ -114,3 +117,39 @@ input{
 .mail-form-close{
     display: none;
 }
+
+/* 메일_모바일 */
+.m-mail-button{
+    position: fixed;
+    background-color: #83c3d1;
+    right: 5%;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+}
+.m-mail-button > div{
+    margin-top: 5px;
+}
+.m-mail-button:hover{
+    background-color: #003F45;
+}
+.m-mail-form{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+}
+.m-mail-form-close{
+    display: none;
+}
+.m-close-button{
+    position:relative;
+    top: 100px;
+    width: 100px;
+}
+
