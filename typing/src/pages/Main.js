@@ -7,6 +7,7 @@ import HeaderPage from '../components/HeaderPage';
 import MenuModal from '../components/mainContents/MenuModal';
 import { BrowserView, MobileView } from 'react-device-detect';
 import MailToMe from '../components/mainContents/MailToMe';
+import Footer from '../components/Footer';
 
 function Main() {
     const [menu, setMenu] = useState(false)
@@ -39,7 +40,7 @@ function Main() {
                 </ContentMobile>
             </MobileView>
             <MailToMe/>
-
+            <Footer/>
         </div>
      );
 }

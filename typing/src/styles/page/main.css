@@ -20,6 +20,14 @@ input{
     font-family: 'SUITE-Regular';
     font-size: 1.5rem;
 }
+.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    font-size: 0.8rem;
+    color: gray;
+}
 .container{
     padding: 0;
     margin: 0;
@@ -149,7 +157,7 @@ input{
 }
 .m-close-button{
     position:relative;
-    top: 100px;
+    top: 1;
     width: 100px;
 }
 
