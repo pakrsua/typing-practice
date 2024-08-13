@@ -5,8 +5,8 @@ function MailToMe() {
     const [openMailForm, setOpenMailForm] = useState(false)
     const [browser, setBrowser] = useState()
     const [formData, setFormData] = useState({
-        name : '박수아',
-        email: 'tndk4997@naver.com',
+        name : 'name',
+        email : 'email',
         message : 'sample'
     })
     useEffect(()=>{
@@ -54,6 +54,9 @@ function MailToMe() {
                     <form>
                         <div>
                             <input type="text" placeholder="이름" name="name" onChange={handleChange}></input>
+                        </div>
+                        <div>
+                            <input type="email" placeholder="이메일" name="email" onChange={handleChange}></input>
                         </div>
                         <div>
                             <input type="textarea" placeholder="내용" name="message" onChange={handleChange}></input>
