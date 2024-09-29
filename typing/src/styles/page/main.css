@@ -78,12 +78,34 @@ input{
 
 }
 
-
 .menus-clicked{
     color: white;
     font-size: 1.25rem;
 }
 
+.typing-type-box{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+}
+.typing-type-box > div{
+    margin: 10px;
+}
+
+.kana-box{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+}
+.kana-box > div{
+    margin: 10px;
+}
 /* 메일 */
 
 .mail-button{
