@@ -113,7 +113,7 @@ function Content(props) {
             setNumber(Math.floor(Math.random()*wordNum))
         }
     },[level, typingTypeData])
-
+    // console.log(level,number,word.length, word)
     return (
         <>
             <div className='content-box'>
@@ -127,11 +127,19 @@ function Content(props) {
                         </>
                          :
                          <> 
-                            <MenuBox setLevel={setLevel} level={level}></MenuBox>
-                                {/* <MenuBox setLevel={setLevel} level={level}></MenuBox> */}
+                            {
+                                word.length === 2 ?
+                                <>
+                                <MenuBox setLevel={setLevel} level={level}></MenuBox>
+                                <TextBox word={jlpt_5} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></TextBox>
+                                </> :
+                                <>
+                                <MenuBox setLevel={setLevel} level={level}></MenuBox>
                                 <TextBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></TextBox>
-                         </>
-                        
+                                </>
+                            }
+                            
+                         </>        
                     }
                 </>          
                 <TypeingBox setTextData={setTextData} setTypingWord={setTypingWord} textData={textData} startComposition={startComposition} endComposition={endComposition}></TypeingBox>
