@@ -5,6 +5,7 @@ import jlpt_3 from "../datas/jlpt_3.json"
 import jlpt_2 from "../datas/jlpt_2.json"
 import jlpt_1 from "../datas/jlpt_1.json"
 import hiragana from "../datas/hiragana.json"
+import gatakana from "../datas/gatakana.json"
 import TypeingBox from './mainContents/TypeingBox';
 import TextBox from './mainContents/TextBox';
 import MenuBox from './mainContents/MenuBox';
@@ -104,7 +105,7 @@ function Content(props) {
             setWord(jlpt_1)
             setNumber(Math.floor(Math.random()*wordNum))
         }else if(level === 6){
-            setWord(hiragana)
+            setWord(gatakana)
             setwordNum(38)
             setNumber(Math.floor(Math.random()*wordNum))
         }else if(level === 7){

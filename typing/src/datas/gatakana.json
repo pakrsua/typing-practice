@@ -1,0 +1,268 @@
+[
+    {
+        "id": 1,
+        "value": "ア",
+        "pron": "あ",
+        "eng": "a",
+        "mean": "아"
+    },
+    {
+        "id": 2,
+        "value": "イ",
+        "pron": "い",
+        "eng": "i",
+        "mean": "이"
+    },
+    {
+        "id": 3,
+        "value":  "ウ",
+        "pron": "う",
+        "eng": "u",
+        "mean": "우"
+    },
+    {
+        "id": 4,
+        "value": "エ",
+        "pron": "え",
+        "eng": "e",
+        "mean": "에"
+    },
+    {
+        "id": 5,
+        "value": "オ",
+        "pron": "お",
+        "eng": "o",
+        "mean": "오"
+    },
+    {
+        "id": 6,
+        "value": "カ",
+        "pron": "か",
+        "eng": "ka",
+        "mean": "카"
+    },
+    {
+        "id": 7,
+        "value": "キ",
+        "pron": "き",
+        "eng": "ki",
+        "mean": "키"
+    },
+    {
+        "id": 8,
+        "value": "ク",
+        "pron": "く",
+        "eng": "ku",
+        "mean": "쿠"
+    },
+    {
+        "id": 9,
+        "value": "ケ",
+        "pron": "け",
+        "eng": "ke",
+        "mean": "케"
+    },
+    {
+        "id": 10,
+        "value": "コ",
+        "pron": "こ",
+        "eng": "ko",
+        "mean": "코"
+    },
+    {
+        "id": 11,
+        "value": "サ",
+        "pron": "さ",
+        "eng": "sa",
+        "mean": "사"
+    },
+    {
+        "id": 12,
+        "value": "シ",
+        "pron": "し",
+        "eng": "si",
+        "mean": "시"
+    },
+    {
+        "id": 13,
+        "value": "ス",
+        "pron": "す",
+        "eng": "su",
+        "mean": "스"
+    },
+    {
+        "id": 14,
+        "value": "セ",
+        "pron": "せ",
+        "eng": "se",
+        "mean": "세"
+    },
+    {
+        "id": 15,
+        "value": "ソ",
+        "pron": "そ",
+        "eng": "so",
+        "mean": "소"
+    },
+    {
+        "id": 16,
+        "value": "タ",
+        "pron": "た",
+        "eng": "ta",
+        "mean": "타"
+    },
+    {
+        "id": 17,
+        "value": "チ",
+        "pron": "ち",
+        "eng": "ti",
+        "mean": "치"
+    },
+    {
+        "id": 18,
+        "value": "ツ゚",
+        "pron": "つ",
+        "eng": "tu",
+        "mean": "츠"
+    },
+    {
+        "id": 19,
+        "value": "テ",
+        "pron": "て",
+        "eng": "te",
+        "mean": "테"
+    },
+    {
+        "id": 20,
+        "value": "ト",
+        "pron": "と",
+        "eng": "to",
+        "mean": "토"
+    },
+    {
+        "id": 21,
+        "value": "ナ",
+        "pron": "な",
+        "eng": "na",
+        "mean": "나"
+    },
+    {
+        "id": 22,
+        "value": "二",
+        "pron": "に",
+        "eng": "ni",
+        "mean": "니"
+    },
+    {
+        "id": 23,
+        "value": "ヌ",
+        "pron": "ぬ",
+        "eng": "nu",
+        "mean": "누"
+    },
+    {
+        "id": 24,
+        "value": "ネ",
+        "pron": "ね",
+        "eng": "ne",
+        "mean": "네"
+    },
+    {
+        "id": 25,
+        "value": "ノ",
+        "pron": "の",
+        "eng": "no",
+        "mean": "노"
+    },
+    {
+        "id": 26,
+        "value": "ハ",
+        "pron": "は",
+        "eng": "ha",
+        "mean": "하"
+    },
+    {
+        "id": 27,
+        "value": "ヒ",
+        "pron": "ひ",
+        "eng": "hi",
+        "mean": "히"
+    },
+    {
+        "id": 28,
+        "value": "フ",
+        "pron": "ふ",
+        "eng": "hu",
+        "mean": "후"
+    },
+    {
+        "id": 29,
+        "value": "ヘ",
+        "pron": "へ",
+        "eng": "he",
+        "mean": "헤"
+    },
+    {
+        "id": 30,
+        "value": "ホ",
+        "pron": "ほ",
+        "eng": "ho",
+        "mean": "호"
+    },
+    {
+        "id": 31,
+        "value": "マ",
+        "pron": "ま",
+        "eng": "ma",
+        "mean": "마"
+    },
+    {
+        "id": 32,
+        "value": "ミ",
+        "pron": "み",
+        "eng": "mi",
+        "mean": "미"
+    },
+    {
+        "id": 33,
+        "value": "ム",
+        "pron": "む",
+        "eng": "mu",
+        "mean": "무"
+    },
+    {
+        "id": 34,
+        "value": "メ",
+        "pron": "め",
+        "eng": "me",
+        "mean": "메"
+    },
+    {
+        "id": 35,
+        "value": "モ",
+        "pron": "も",
+        "eng": "mo",
+        "mean": "모"
+    },
+    {
+        "id": 36,
+        "value": "ヤ",
+        "pron": "や",
+        "eng": "ya",
+        "mean": "야"
+    },
+    {
+        "id": 37,
+        "value": "ワ",
+        "pron": "わ",
+        "eng": "wa",
+        "mean": "와"
+    },
+    {
+        "id": 38,
+        "value": "ン",
+        "pron": "ん",
+        "eng": "nn",
+        "mean": "응"
+    }
+]
