@@ -105,13 +105,14 @@ function Content(props) {
             setNumber(Math.floor(Math.random()*wordNum))
         }else if(level === 6){
             setWord(hiragana)
-            setwordNum(2)
+            setwordNum(38)
             setNumber(Math.floor(Math.random()*wordNum))
         }else if(level === 7){
             setWord(hiragana)
-            setwordNum(2)
+            setwordNum(38)
             setNumber(Math.floor(Math.random()*wordNum))
         }
+        console.log(word)
     },[level, typingTypeData])
     // console.log(level,number,word.length, word)
     return (
@@ -128,7 +129,7 @@ function Content(props) {
                          :
                          <> 
                             {
-                                word.length === 2 ?
+                                word.length === 38 ?
                                 <>
                                 <MenuBox setLevel={setLevel} level={level}></MenuBox>
                                 <TextBox word={jlpt_5} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></TextBox>
