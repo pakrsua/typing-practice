@@ -9,9 +9,7 @@ function KanaBox(props) {
     else{
         return ( 
             <>
-                <div>
-                    
-                </div>
+                {props.word[0].value}
             </>
          );
     }

@@ -124,8 +124,18 @@ function Content(props) {
                     {
                         typingTypeData === 0 ?
                         <>
-                            <KanaTypeBox kanaTypeData={kanaTypeData} setKanaTypeData={setKanaTypeData} level={level} setLevel={setLevel} setWord={setWord}></KanaTypeBox>
-                            <KanaBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></KanaBox>
+                            {
+                                word.length !== 38 ?
+                                <>
+                                <KanaTypeBox kanaTypeData={kanaTypeData} setKanaTypeData={setKanaTypeData} level={level} setLevel={setLevel} setWord={setWord}></KanaTypeBox>
+                                <KanaBox word={hiragana} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></KanaBox>
+                                </>:
+                                <>
+                                <KanaTypeBox kanaTypeData={kanaTypeData} setKanaTypeData={setKanaTypeData} level={level} setLevel={setLevel} setWord={setWord}></KanaTypeBox>
+                                <KanaBox word={word} number={number} yomigana={props.yomigana} alpabet={props.alpabet}></KanaBox>
+                                </>
+                            }
+                            
                         </>
                          :
                          <> 
